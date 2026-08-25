@@ -1,4 +1,7 @@
-# Core CS Fundamentals: Object-Oriented Programming (OOP)
+import os
+
+# 1. oop-concepts.md
+oop_content = """# Core CS Fundamentals: Object-Oriented Programming (OOP)
 
 ## 1. What is it?
 **Object-Oriented Programming (OOP)** is a software programming model that organizes code around real-world "objects" rather than just isolated functions and commands.
@@ -334,3 +337,9 @@ In a real-world platform like Amazon:
 
 ## 14. Connection to next topic
 Now that you understand how objects structure data in memory during application runtime, the next step is learning how to persist this data permanently in relational tables. Continue to **[dbms-normalization-joins.md](dbms-normalization-joins.md)** to learn about Database Management Systems, Normalization, and SQL Joins!
+"""
+
+with open('02-technical-coding/cs-fundamentals/oop-concepts.md', 'w', encoding='utf-8') as f:
+    f.write(oop_content)
+
+print("oop-concepts.md updated.")
