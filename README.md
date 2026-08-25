@@ -1,5 +1,9 @@
 # Accenture Placement Preparation Repository
 
+> 🚀 **Start Here**: If you are new to this repository, read the **[Master Roadmap (ROADMAP.md)](ROADMAP.md)** first for a beginner-friendly learning guide, track prerequisites, and week-by-week milestones!
+> 
+> 📖 **Teaching Standard**: All concept files in this repository strictly adhere to the 14-step pedagogical structure defined in **[TEACHING-STANDARD.md](TEACHING-STANDARD.md)**.
+
 Welcome to the comprehensive, self-contained **Accenture Placement Preparation Master Repository**. This repository is engineered specifically for B.Tech Computer Science candidates (tailored for **Ravi Ranjan**, B.Tech CS at LPU specializing in Full-Stack Web Development & AI-ML) preparing for the upcoming Accenture campus recruitment drive.
 
 ---
@@ -9,7 +13,7 @@ Welcome to the comprehensive, self-contained **Accenture Placement Preparation M
 Accenture's campus recruitment process consists of rigorous automated assessments and multi-stage technical/HR interviews:
 1. **Cognitive & Technical Assessment**: Aptitude (Quant, Logical, Verbal), CS Fundamentals (Pseudocode, DBMS, OS, Networking).
 2. **Coding Assessment**: 2 Hands-on Data Structures & Algorithm problems.
-3. **Communication Assessment**: Automated spoken English, listening, and sentence repetition evaluation (Versant style).
+3. **Communication Assessment**: Automated spoken English, listening, and sentence repetition evaluation (Versant format).
 4. **Technical & HR Interview**: Project deep-dives, behavioral STAR questions, and core CS fundamentals.
 
 This repository provides structured, zero-placeholder study content, shortcuts, practice questions, script templates, and tracking logs across all 4 preparation tracks.
@@ -22,6 +26,8 @@ The repository is organized into 4 core preparation tracks plus operational logi
 
 ```
 accenture-prep/
+├── ROADMAP.md             → Master Beginner Guide & Learning Sequence
+├── TEACHING-STANDARD.md   → 14-Step Pedagogical Content Framework
 ├── 01-aptitude/           → Track 1: Quantitative, Logical Reasoning, and Verbal Ability
 ├── 02-technical-coding/   → Track 2: CS Fundamentals (OOPs, DBMS, OS, CN) & DSA Practice
 ├── 03-communication/      → Track 3: Grammar, Versant Practice, Self-Intro & Project Scripts
@@ -60,9 +66,11 @@ Follow this structured 4-week timeline to systematically cover all tracks before
 
 ## 🔗 Master Module Directory & Checklist
 
-- [ ] **Track 1**: [01-Aptitude Module Index](01-aptitude/README.md)
-- [ ] **Track 2**: [02-Technical Coding Module Index](02-technical-coding/README.md)
-- [ ] **Track 3**: [03-Communication Module Index](03-communication/README.md)
-- [ ] **Track 4**: [04-Interview Prep Module Index](04-interview-prep/README.md)
-- [ ] **Logistics**: [05-Logistics Checklist](05-logistics-checklist.md)
-- [ ] **Resources**: [Free Preparation Resources Directory](resources.md)
+- [ ] **Roadmap**: **[Beginner's Master Roadmap](ROADMAP.md)**
+- [ ] **Teaching Standard**: **[14-Step Teaching Standard](TEACHING-STANDARD.md)**
+- [ ] **Track 1**: **[01-Aptitude Module Index](01-aptitude/README.md)**
+- [ ] **Track 2**: **[02-Technical Coding Module Index](02-technical-coding/README.md)**
+- [ ] **Track 3**: **[03-Communication Module Index](03-communication/README.md)**
+- [ ] **Track 4**: **[04-Interview Prep Module Index](04-interview-prep/README.md)**
+- [ ] **Logistics**: **[05-Logistics Checklist](05-logistics-checklist.md)**
+- [ ] **Resources**: **[Free Preparation Resources Directory](resources.md)**
