@@ -1,35 +1,43 @@
-# Project Deep Dive: PrepGenius (AI Mock Interview Assistant)
+# Project Deep Dive: PrepGenius (AI Mock Interview Platform)
 
 ## 1. Structured Project Overview
 
-- **Problem It Solves**: Provides automated, low-cost technical mock interviews for placement students with instant evaluation on technical correctness, speech clarity, and body language.
-- **My Role**: **Full-Stack & AI Integration Engineer** — Designed LLM prompt engineering pipeline, audio processing service, and web dashboard.
+- **Problem It Solves**: AI-powered mock interview platform that reduces student preparation time by 35% for over 200+ users via smart question generation and adaptive workflows.
+- **My Role**: [FILL IN: Describe your exact role, e.g., Lead Developer, Full-Stack Developer]
 - **Tech Stack**:
-  - *Frontend*: React.js, Web Audio API, SpeechRecognition API
-  - *Backend*: Python (FastAPI) / Node.js
-  - *AI / APIs*: OpenAI GPT-4 API (Evaluation Engine), Whisper API (Speech-to-Text)
-  - *Database*: PostgreSQL / Prisma ORM
+  - *Frontend & Build*: React, TypeScript, Vite, Tailwind CSS
+  - *Authentication*: Clerk
+  - *Database & Storage*: Firebase Firestore
+  - *AI Integration*: Google Gemini API
+  - *Code Editor*: Monaco Editor
+- **Key Features Verified**:
+  - Resume & Job Description (JD) parsing for custom question targeting.
+  - Adaptive interview question generation based on user performance.
+  - Live coding workspace with time/space complexity evaluation.
+  - System-design interactive whiteboard module.
+  - Comprehensive architecture and scalability feedback reports.
 - **One Hard Technical Problem I Solved**:
-  - *Problem*: High API latency (4-6 seconds per answer evaluation) disrupted live interview conversation flow.
-  - *Solution*: Implemented response streaming (SSE / Server-Sent Events) and chunked speech processing, allowing the UI to display evaluation criteria progressively as the model generated feedback.
+  - *Problem*: [FILL IN: Describe a real technical challenge faced during development]
+  - *Solution*: [FILL IN: Describe the steps you took to resolve the issue]
+  - *Metrics*: Reduced preparation time by 35% across 200+ active users.
 - **What I'd Improve in v2.0**:
-  - Add computer vision gaze tracking via MediaPipe to give feedback on eye contact and posture during video answers.
+  - [FILL IN: Mention planned future enhancements]
 
 ---
 
 ## 2. Top 3 Interviewer Follow-up Questions & How to Answer
 
-### Q1: "How do you prevent the LLM from hallucinating when evaluating complex technical answers?"
+### Q1: "How did you structure prompts for Google Gemini to deliver adaptive question generation and code feedback?"
 - **Guidance on How to Answer**:
-  - Explain your **Prompt Engineering & RAG (Retrieval-Augmented Generation)** approach: Provide the LLM with a strict canonical reference answer schema and explicit scoring rubrics (0–10 scale).
-  - Constrain output formats using JSON Mode to enforce structured JSON parsing.
+  - Explain how candidate inputs (resume details, target JD, previous answer scores) were passed in structured system prompts to Google Gemini.
+  - Discuss how you constrained Gemini to return structured JSON payloads so the React UI could reliably render complexity feedback and follow-up questions.
 
-### Q2: "How did you store and process candidate speech recording efficiently?"
+### Q2: "Why did you choose Firebase Firestore and Clerk for this application?"
 - **Guidance on How to Answer**:
-  - Audio recorded in browser via MediaRecorder API converted to lightweight `.webm` format.
-  - Uploaded directly to S3 bucket via presigned URLs (avoiding backend bottleneck), then passed to Whisper API for transcription.
+  - Clerk provided instant, secure user authentication with multi-provider OAuth out of the box, reducing auth implementation overhead.
+  - Firebase Firestore provided flexible NoSQL real-time document synchronization for storing user interview sessions, scoring histories, and resume metadata.
 
-### Q3: "What security measures did you take regarding OpenAI API key storage?"
+### Q3: "How does the live coding module with Monaco Editor evaluate time and space complexity?"
 - **Guidance on How to Answer**:
-  - Never exposed API keys on the frontend client.
-  - Kept keys strictly in server-side environment variables (`.env`), protected behind rate-limiting middleware (Express-rate-limit) to prevent quota abuse.
+  - The browser client captures code written in Monaco Editor and passes the code string along with test cases to the Google Gemini API for static/algorithmic analysis.
+  - Explain how Gemini analyzes the asymptotic behavior ($O(N)$, $O(N \log N)$) and provides targeted refactoring suggestions directly back to the code editor.

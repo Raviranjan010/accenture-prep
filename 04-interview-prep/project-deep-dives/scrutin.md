@@ -1,35 +1,40 @@
-# Project Deep Dive: Scrutin (Automated Code / Content Inspection Tool)
+# Project Deep Dive: Scrutin (AI-Assisted Code Review Platform)
 
 ## 1. Structured Project Overview
 
-- **Problem It Solves**: Automates static code analysis, vulnerability scanning, and code smell detection for student project repositories prior to submission.
-- **My Role**: **Backend Developer** — Implemented static parser integration, AST (Abstract Syntax Tree) rule evaluation, and report generation pipeline.
+- **Problem It Solves**: AI-assisted code review platform that analyzes code quality, detects bugs, evaluates performance, and scans for security vulnerabilities with real-time streaming reviews and shareable reports.
+- **My Role**: [FILL IN: Describe your exact role, e.g., Backend Developer, Full-Stack Lead]
 - **Tech Stack**:
-  - *Backend*: Python, AST module, ESLint/Flake8 CLI wrappers
-  - *Frontend*: React.js with Monaco Editor integration
-  - *Database*: PostgreSQL
-  - *Job Processing*: Celery + Redis worker queues
+  - *Frontend*: React 19, Vite, CodeMirror
+  - *Backend*: Node.js, Express.js
+  - *AI Model*: Google Gemini API
+  - *Authentication*: GitHub OAuth via Passport.js
+  - *Security & Middleware*: Helmet, Rate Limiting, OWASP Top 10 security scanning modules
+  - *Deployment*: Railway (Backend) & Vercel (Frontend)
+- **Key Features Verified**:
+  - Real-time streaming code reviews.
+  - Automated OWASP Top 10 security vulnerability detection.
+  - Shareable code inspection reports.
 - **One Hard Technical Problem I Solved**:
-  - *Problem*: Long-running repository analysis tasks blocked main API threads, causing HTTP request timeouts.
-  - *Solution*: Decoupled scanning pipeline into background worker tasks using Celery and Redis. Implemented WebSocket status progress bars (`0% -> 100%`) for the user UI.
+  - *Problem*: [FILL IN: Describe a real technical challenge faced during development]
+  - *Solution*: [FILL IN: Describe how you resolved it]
 - **What I'd Improve in v2.0**:
-  - Add custom AI fix suggestions for identified security vulnerabilities using local LLM inference.
+  - [FILL IN: Mention planned future features]
 
 ---
 
 ## 2. Top 3 Interviewer Follow-up Questions & How to Answer
 
-### Q1: "How did you handle large code repositories without exhausting server memory?"
+### Q1: "How did you implement real-time streaming code reviews with Google Gemini and Node.js?"
 - **Guidance on How to Answer**:
-  - Streams file reads line-by-line rather than loading entire multi-megabyte files into RAM.
-  - Enforced repository size limits (e.g., max 50MB) and ignored `node_modules` / `.git` directories.
+  - Explain how the Node.js Express backend leveraged stream responses from the Google Gemini API, forwarding chunks to the React 19 frontend via Server-Sent Events (SSE) or chunked HTTP transfer encoding.
+  - Discuss how this minimized perceived latency for long code reviews, allowing users to read feedback incrementally as CodeMirror highlighted issues.
 
-### Q2: "Why did you choose Celery and Redis for job processing?"
+### Q2: "How do you scan for OWASP Top 10 security vulnerabilities and ensure the analysis platform itself is secure?"
 - **Guidance on How to Answer**:
-  - Static code analysis is I/O and CPU heavy; running it synchronously in HTTP request-response cycles would crash the server.
-  - Celery allows asynchronous background processing and Redis acts as an ultra-fast message broker and result backend.
+  - Highlight security middleware like **Helmet** for HTTP header security and **express-rate-limit** to protect against abuse/DDoS.
+  - Explain how specialized prompt rules and pattern scanners check submitted code for classic OWASP threats (SQL Injection, XSS, insecure dependencies, unhandled exceptions).
 
-### Q3: "How would you prevent malicious code execution during analysis?"
+### Q3: "How does GitHub OAuth via Passport.js work in your authentication flow?"
 - **Guidance on How to Answer**:
-  - Static analysis reads code as plain text/AST without executing the code (`exec()` or `eval()` are never called).
-  - For dynamic tests, execution takes place inside isolated, ephemeral Docker container sandboxes with network access disabled.
+  - Walk through the OAuth 2.0 flow: User clicks 'Login with GitHub' -> redirected to GitHub consent page -> callback endpoint receives auth code -> Passport exchanges code for access token -> session JWT issued to frontend.
