@@ -177,3 +177,21 @@
 
 8. **Answer: D - B - C - A**
    - *Explanation*: D defines ice-albedo mechanism. B explains ice melting. C gives consequence of darker ocean absorbing heat. A concludes with global warming feedback loop.
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Para Jumbles Cheat-Sheet
+> - **Opening Sentence**: Standalone noun introduction; never starts with pronouns (*He, She, They, This*) or conjunctions (*However, Therefore*).
+> - **Noun-Pronoun Precedence**: Full name/Noun MUST precede its Pronoun.
+> - **Acronym Precedence**: Full title comes before acronym (e.g., NASA).
+> - **Mandatory Pairs**: Linked by transition words (*However, Consequently, In addition*).
+> - **Option Elimination**: Test mandatory pairs directly against the given 4 options.
+
+---
+
+## 9. Connection to Next Topic
+Congratulations on completing the entire 01-Aptitude Module! You are ready to move to **Track 2: Technical & Coding Preparation**. Start with **[OOP Concepts](../../02-technical-coding/cs-fundamentals/oop-concepts.md)**!

@@ -184,3 +184,22 @@ Determine the full arrangement and facing directions.
 
 8. **Answer: Fully resolved rectangle layout**
    - *Explanation*: Detailed position assignments for 8 persons around rectangle.
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Seating Arrangement Cheat-Sheet
+> - **North Facing**: Left $= \leftarrow$, Right $= \rightarrow$.
+> - **South Facing**: Left $= \rightarrow$, Right $= \leftarrow$.
+> - **Center Facing Circle**: Left = Clockwise; Right = Counter-Clockwise (Anticlockwise).
+> - **Outward Facing Circle**: Left = Counter-Clockwise; Right = Clockwise.
+> - **Opposite Seat in Circle ($N=8$)**: Opposite position of seat $k$ is seat $k + 4$.
+> - **Strategy**: Start strictly with definite clues; draw 2 parallel case diagrams for ambiguous statements.
+
+---
+
+## 9. Connection to Next Topic
+Logical Reasoning complete! Next, move to Verbal Ability to practice reading comprehension, speed skimming, and tone detection. Continue to **[Reading Comprehension](../verbal/reading-comprehension.md)**!

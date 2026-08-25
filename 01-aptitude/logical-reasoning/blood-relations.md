@@ -179,3 +179,20 @@ Which of the following represents "M is the maternal uncle of R"?
    - B and A's mother are siblings, children of C.
    - D and E are children of B.
    - C is the parent of B $\implies$ C is grandparent of B's child E. Gender of C is unspecified, so C is Grandfather or Grandmother.
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Blood Relations Cheat-Sheet
+> - **Notations**: Square/Plus $[+]$ = Male; Circle/Minus $(-)$ = Female; $=$ Married; $-$ Siblings; $\mid$ Parent-Child.
+> - **Generation Gaps**: Grandparent $= +2$, Parent/Uncle $= +1$, Self/Sibling $= 0$, Child $= -1$.
+> - **Self-Substitution**: Read quotes from "my/his/her" outwards to deduce relations mentally.
+> - **Rule**: Never assume gender from names; establish gender strictly via relationship terms or pronouns.
+
+---
+
+## 9. Connection to Next Topic
+Now that you can trace family tree structures logically, build spatial orientation skills for linear and circular setups. Continue to **[Seating Arrangement](seating-arrangement.md)**!

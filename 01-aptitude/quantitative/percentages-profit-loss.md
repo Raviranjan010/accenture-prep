@@ -160,3 +160,23 @@
    - Remaining revenue needed = $11500 - 4400 = ₹7,100$.
    - Remaining weight = $200 - 80 = 120$ kg.
    - Required SP per kg for remaining = $\frac{7100}{120} = ₹59.17$ per kg.
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Percentages, Profit & Loss Cheat-Sheet
+> - **Percentage Value**: $\text{Part} / \text{Whole} \times 100$.
+> - **Multiplier Method**: 20% gain $\rightarrow \times 1.20$; 15% loss $\rightarrow \times 0.85$.
+> - **Net Successive Change**: $a + b + \frac{ab}{100}\%$.
+> - **Profit / Loss %**: Calculated strictly on **Cost Price (CP)** unless specified otherwise.
+> - **Discount %**: Calculated strictly on **Marked Price (MP)**.
+> - **Same SP, Same Profit% & Loss%**: Always net loss of $\frac{x^2}{100}\%$.
+> - **False Weight Profit %**: $\frac{\text{Error}}{\text{True Weight} - \text{Error}} \times 100$.
+
+---
+
+## 9. Connection to Next Topic
+Now that you have mastered percentages, markup, and discount multipliers, the next logical step is using ratios to compare quantities and analyze weighted averages. Continue to **[Ratios & Averages](ratios-averages.md)**!

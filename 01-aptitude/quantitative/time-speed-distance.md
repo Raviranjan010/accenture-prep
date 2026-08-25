@@ -152,3 +152,23 @@
    - Relative speed $= 50 - 40 = 10$ km/h.
    - Time to overtake $= \frac{20}{10} = 2$ hours.
    - Pursuit starts at 2:00 PM $\implies$ Thief caught at $2:00 \text{ PM} + 2 \text{ hours} = 4:00 \text{ PM}$.
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Time, Speed & Distance Cheat-Sheet
+> - **Formula**: $D = S \times T$.
+> - **Unit Conversion**: $\text{km/h} \rightarrow \text{m/s}$ (multiply by $5/18$); $\text{m/s} \rightarrow \text{km/h}$ (multiply by $18/5$).
+> - **Fixed Distance**: Speed ratio $S_1 : S_2$ is inversely proportional to time ratio $T_2 : T_1$.
+> - **Average Speed (Equal Distances)**: $S_{\text{avg}} = \frac{2xy}{x + y}$.
+> - **Relative Speed**: Opposite directions $\rightarrow S_1 + S_2$; Same direction $\rightarrow |S_1 - S_2|$.
+> - **Train Crossing Platform**: Total distance = Length of train + Length of platform.
+> - **Boats**: Downstream $D_s = u + v$; Upstream $U_s = u - v$.
+
+---
+
+## 9. Connection to Next Topic
+Great job completing Quantitative Aptitude! Next, transition to Logical Reasoning starting with letter patterns and positional coding. Continue to **[Coding & Decoding](../logical-reasoning/coding-decoding.md)**!

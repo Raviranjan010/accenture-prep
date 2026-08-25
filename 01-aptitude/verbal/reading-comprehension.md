@@ -139,3 +139,21 @@
 
 8. **Answer: b) Predictive Maintenance: Advantages and Adoption Hurdles**
    - *Explanation*: Summarizes both main themes of the text (benefits of downtime reduction + adoption challenges for small firms).
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Reading Comprehension Cheat-Sheet
+> - **Question-First Strategy**: Read question stems first to pre-program keyword targets.
+> - **Paragraph Anchors**: 80% of core ideas reside in the 1st and last sentences of each paragraph.
+> - **Tone Filter**: Classify tone as Positive (+), Negative (-), or Neutral (0).
+> - **Extreme Word Trap**: Options with *always, never, completely, impossible, all* are wrong 90% of the time.
+> - **Inference Rule**: Infer strictly from facts inside the text—do NOT bring outside knowledge.
+
+---
+
+## 9. Connection to Next Topic
+Now that you can skim passages and extract main themes, learn how to reorder jumbled sentences using transition words and mandatory pairs. Continue to **[Para Jumbles](para-jumbles.md)**!

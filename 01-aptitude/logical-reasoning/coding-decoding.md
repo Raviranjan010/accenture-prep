@@ -175,3 +175,22 @@ Which word in that language means "apple"?
      - E $\rightarrow$ V
      - D $\rightarrow$ W
    - Code = `IVJFRIVW`.
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Coding & Decoding Cheat-Sheet
+> - **EJOTY Anchors**: $E=5, J=10, O=15, T=20, Y=25$.
+> - **CFILORUX Anchors**: Multiples of 3 ($3, 6, 9, 12, 15, 18, 21, 24$).
+> - **Opposite Letters**: Positional sum $= 27$ (e.g., $A(1) + Z(26) = 27, B(2) + Y(25) = 27$).
+> - **Shifting**: Track $+N / -N$ patterns above each letter.
+> - **Option Elimination**: Check code of 1st and last letter first to eliminate options instantly.
+> - **Coded Messages**: Find overlapping common words across 2+ statements.
+
+---
+
+## 9. Connection to Next Topic
+Having mastered letter patterns and positional logic, apply tree structures and logical deduction to family relations. Continue to **[Blood Relations](blood-relations.md)**!

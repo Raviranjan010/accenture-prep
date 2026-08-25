@@ -160,3 +160,22 @@
    - *Explanation*: Formula for repeated replacement: $Q_{\text{final}} = Q_{\text{initial}} \left(1 - \frac{x}{V}\right)^n$.
    - $Q_{\text{initial}} = 40$, $x = 4$, $V = 40$, $n = 2$.
    - $Q_{\text{final}} = 40 \left(1 - \frac{4}{40}\right)^2 = 40 \left(\frac{9}{10}\right)^2 = 40 \times \frac{81}{100} = 32.4$ liters.
+
+
+---
+
+## 8. Quick Revision
+
+> [!TIP]
+> ### 🚀 Ratios & Averages Cheat-Sheet
+> - **Average**: $\text{Sum of items} / N$.
+> - **Weighted Average**: $(n_1 a_1 + n_2 a_2) / (n_1 + n_2)$.
+> - **Deviation Method**: $\text{Assumed Mean } A_0 + (\sum \text{Deviations} / N)$.
+> - **Ratio Combining ($A:B$ & $B:C$)**: Scale $B$ to a common multiple baseline.
+> - **Rule of Alligation**: $\text{Cheaper Qty} / \text{Dearer Qty} = (D - M) / (M - C)$.
+> - **Repeated Replacement**: $Q_{\text{final}} = Q_{\text{initial}} \left(1 - \frac{x}{V}\right)^n$.
+
+---
+
+## 9. Connection to Next Topic
+With ratios and weighted averages mastered, apply these proportional reasoning techniques to solve speed, time, and distance problems. Continue to **[Time, Speed & Distance](time-speed-distance.md)**!
