@@ -9,6 +9,7 @@ Welcome to the **Accenture Placement Preparation Master Roadmap**. Whether you a
 If you are unsure where to begin:
 1. **Self-Diagnostic Assessment**: Start with **[01-Aptitude Module](01-aptitude/README.md)**. Quantitative reasoning and logical patterns build general analytical speed needed for all subsequent technical and non-technical rounds.
 2. **Setup Readiness**: Skim **[05-logistics-checklist.md](05-logistics-checklist.md)** early to ensure your laptop, browser (Chrome 110+ / Secure Exam Browser), webcam, and environment meet Accenture's technical guidelines.
+3. **Day-Before Quick Revision**: Use **[CHEAT-SHEET.md](CHEAT-SHEET.md)** on the day before your assessment for rapid formula and rule review.
 
 ---
 
@@ -38,6 +39,12 @@ Follow this sequential 4-track progression:
 ┌──────────────────────────────────────────────────────────┐
 │ Track 4: Behavioral STAR & Project Deep-Dives            │
 │ (STAR Stories -> Project Deep-Dives -> Panelist Qs)      │
+└────────────────────────────┬─────────────────────────────┘
+                             │
+                             ▼
+┌──────────────────────────────────────────────────────────┐
+│ Capstone: Rehearse Live Recruitment Day                  │
+│ (06-capstone-mock-day.md Full-Length Assessment)         │
 └──────────────────────────────────────────────────────────┘
 ```
 
@@ -106,15 +113,18 @@ This repository includes 4 dedicated tracking logs. Never skip logging after a s
 - [ ] **Week 3: Advanced DSA & Communication Fluency**
   - Mastered DP & Graph basics (`dp-graphs.md`).
   - Recorded 5+ self-intro and project summary pitches in `recorded-practice-log.md`.
-- [ ] **Week 4: STAR Stories, Project Deep-Dives & Logistics**
+- [ ] **Week 4: STAR Stories, Project Deep-Dives & Final Capstone**
   - Finalized STAR answers and customized project deep-dives (`04-interview-prep/`).
   - Verified system readiness against `05-logistics-checklist.md`.
+  - **Week 4 Final Completion Check**: Complete the simulated **[06-capstone-mock-day.md](06-capstone-mock-day.md)** assessment.
 
 ---
 
-## 🔗 Quick Links to Section READMEs
+## 🔗 Quick Links to Section READMEs & Core Tools
 
 - 📑 **[Track 1: 01-Aptitude README](01-aptitude/README.md)**
 - 💻 **[Track 2: 02-Technical Coding README](02-technical-coding/README.md)**
 - 🗣️ **[Track 3: 03-Communication README](03-communication/README.md)**
 - 🎯 **[Track 4: 04-Interview Prep README](04-interview-prep/README.md)**
+- 🎓 **[Capstone Assessment Day](06-capstone-mock-day.md)**
+- ⚡ **[Day-Before Cheat-Sheet](CHEAT-SHEET.md)**

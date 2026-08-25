@@ -2,6 +2,10 @@
 
 > 🚀 **Start Here**: If you are new to this repository, read the **[Master Roadmap (ROADMAP.md)](ROADMAP.md)** first for a beginner-friendly learning guide, track prerequisites, and week-by-week milestones!
 > 
+> ⚡ **Day-Before Quick Revision**: Use the **[Final Revision Cheat-Sheet (CHEAT-SHEET.md)](CHEAT-SHEET.md)** for rapid 1-line formula and rule review on the day before your assessment.
+>
+> 🎓 **Capstone Simulation**: Rehearse live recruitment day context-switching with **[06-capstone-mock-day.md](06-capstone-mock-day.md)**.
+> 
 > 📖 **Teaching Standard**: All concept files in this repository strictly adhere to the 14-step pedagogical structure defined in **[TEACHING-STANDARD.md](TEACHING-STANDARD.md)**.
 
 Welcome to the comprehensive, self-contained **Accenture Placement Preparation Master Repository**. This repository is engineered specifically for B.Tech Computer Science candidates (tailored for **Ravi Ranjan**, B.Tech CS at LPU specializing in Full-Stack Web Development & AI-ML) preparing for the upcoming Accenture campus recruitment drive.
@@ -22,17 +26,19 @@ This repository provides structured, zero-placeholder study content, shortcuts, 
 
 ## 📌 The 4-Track Structure Explained
 
-The repository is organized into 4 core preparation tracks plus operational logistics and resources:
+The repository is organized into 4 core preparation tracks plus operational logistics, quick cheat-sheets, capstone mock, and resources:
 
 ```
 accenture-prep/
 ├── ROADMAP.md             → Master Beginner Guide & Learning Sequence
 ├── TEACHING-STANDARD.md   → 14-Step Pedagogical Content Framework
+├── CHEAT-SHEET.md         → Single Quick-Scan Reference Card (Day Before Test)
 ├── 01-aptitude/           → Track 1: Quantitative, Logical Reasoning, and Verbal Ability
 ├── 02-technical-coding/   → Track 2: CS Fundamentals (OOPs, DBMS, OS, CN) & DSA Practice
 ├── 03-communication/      → Track 3: Grammar, Versant Practice, Self-Intro & Project Scripts
 ├── 04-interview-prep/     → Track 4: STAR Behavioral Answers, Project Deep-Dives & Panelist Qs
 ├── 05-logistics-checklist.md → Technical hardware, SEB browser, PAN card & room environment setup
+├── 06-capstone-mock-day.md→ Simulated Assessment & Interview Day Test
 └── resources.md          → Categorized free preparation websites & practice links
 ```
 
@@ -57,10 +63,10 @@ Follow this structured 4-week timeline to systematically cover all tracks before
 - **Daily Budget**: 30 minutes (15m self-recording, 15m grammar notes).
 - **Milestone**: Log practice sessions in `03-communication/recorded-practice-log.md`.
 
-### Week 4: Interview Deep-Dives & Mock Rounds (Track 4 & Logistics)
-- **Goal**: Finalize STAR stories for hackathon win/teamwork/conflict, prepare project deep-dives for *Bhookly*, *PrepGenius*, and *Scrutin* under `04-interview-prep/`, and perform system checks in `05-logistics-checklist.md`.
+### Week 4: Interview Deep-Dives, Capstone & Mock Rounds (Track 4 & Logistics)
+- **Goal**: Finalize STAR stories, prepare project deep-dives under `04-interview-prep/`, perform system checks in `05-logistics-checklist.md`, and complete **[06-capstone-mock-day.md](06-capstone-mock-day.md)**.
 - **Daily Budget**: 90 minutes (45m project deep-dive review, 45m live mock interviews).
-- **Milestone**: Complete system diagnostic run 24h before test day.
+- **Milestone**: Complete capstone simulation and diagnostic run 24h before test day.
 
 ---
 
@@ -68,9 +74,11 @@ Follow this structured 4-week timeline to systematically cover all tracks before
 
 - [ ] **Roadmap**: **[Beginner's Master Roadmap](ROADMAP.md)**
 - [ ] **Teaching Standard**: **[14-Step Teaching Standard](TEACHING-STANDARD.md)**
+- [ ] **Quick Revision**: **[Final Revision Cheat-Sheet](CHEAT-SHEET.md)**
 - [ ] **Track 1**: **[01-Aptitude Module Index](01-aptitude/README.md)**
 - [ ] **Track 2**: **[02-Technical Coding Module Index](02-technical-coding/README.md)**
 - [ ] **Track 3**: **[03-Communication Module Index](03-communication/README.md)**
 - [ ] **Track 4**: **[04-Interview Prep Module Index](04-interview-prep/README.md)**
 - [ ] **Logistics**: **[05-Logistics Checklist](05-logistics-checklist.md)**
+- [ ] **Capstone**: **[06-Capstone Mock Assessment Day](06-capstone-mock-day.md)**
 - [ ] **Resources**: **[Free Preparation Resources Directory](resources.md)**
