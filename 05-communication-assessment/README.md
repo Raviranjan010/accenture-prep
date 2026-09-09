@@ -14,7 +14,7 @@ To build natural fluency, vocal clarity, and error-free grammar, dedicate **15 m
    - Review 1 rule section in `grammar-vocab-notes.md` (Tenses, Subject-Verb Agreement, Prepositions, or Vocab).
    - Solve the 3 inline practice questions to reinforce usage rules.
 3. **Minutes 10–15 (Log & Refine)**:
-   - Note down filler words, pacing errors, or pronunciation stumbles in `recorded-practice-log.md`.
+   - Note down filler words, pacing errors, or pronunciation stumbles in `../08-progress-trackers/spoken-practice-log.md`.
    - Re-record the same 60-second snippet once to fix the identified issue.
 
 ---
@@ -24,4 +24,4 @@ To build natural fluency, vocal clarity, and error-free grammar, dedicate **15 m
 - [ ] [Grammar & Vocabulary Notes](grammar-vocab-notes.md) — Placement English rules, definitions, examples, and practice questions.
 - [ ] [Self-Introduction Script Template](self-intro-script.md) — 60–90 second natural intro template with delivery tips and self-recording checklist.
 - [ ] [Project Summary Script Framework](project-summary-script.md) — 5-stage framework (Problem → Role → Tech Stack → Challenge → Result) with a fully written example.
-- [ ] [Recorded Practice Log](recorded-practice-log.md) — Ready-to-use tracking table for vocal practice sessions.
+- [ ] [Spoken Practice Log](../08-progress-trackers/spoken-practice-log.md) — Ready-to-use tracking table for vocal practice sessions.

@@ -8,7 +8,7 @@ This module should be tackled **3 to 4 days before your scheduled interview**, a
 
 - **Day -4 (Behavioral STAR Mastery)**: Read all guides under `star-answers/`. Finalize your actual personal stories for `teamwork.md` and `conflict-challenge.md` using the provided STAR templates.
 - **Day -3 (Project Deep-Dives)**: Fill out the technical details, architecture decisions, and hard problems solved for `bhookly.md`, `prepgenius.md`, and `scrutin.md`. Review the 3 follow-up questions per project.
-- **Day -2 (Panelist Questions & Delivery)**: Memorize your top 3 favorite questions from `questions-to-ask-panelist.md`. Conduct 2 full mock interview recordings and log them in `mock-interview-log.md`.
+- **Day -2 (Panelist Questions & Delivery)**: Memorize your top 3 favorite questions from `questions-to-ask-panelist.md`. Conduct 2 full mock interview recordings and log them in `../08-progress-trackers/mock-interview-log.md`.
 - **Day -1 (Final Review & Polish)**: Re-read your project deep-dives and STAR stories. Ensure smooth, confident speech without over-rehearsing.
 
 ---
@@ -27,4 +27,4 @@ This module should be tackled **3 to 4 days before your scheduled interview**, a
 
 ### Interview Readiness
 - [ ] [Questions to Ask Panelist](questions-to-ask-panelist.md) — 8 curated strategic questions categorized by Role, Team, and Growth.
-- [ ] [Mock Interview Log](mock-interview-log.md) — Ready-to-use performance tracking table.
+- [ ] [Mock Interview Log](../08-progress-trackers/mock-interview-log.md) — Ready-to-use performance tracking table.
