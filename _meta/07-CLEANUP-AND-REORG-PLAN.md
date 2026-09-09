@@ -1,4 +1,4 @@
-# CLEANUP-AND-REORG-PLAN.md
+# 07-CLEANUP-AND-REORG-PLAN.md
 
 Restructuring specification for the Accenture preparation repository into a clean 00-08 numbered folder structure.
 
@@ -16,10 +16,10 @@ ADDITIONAL-RESOURCES.md       — external practice platforms (IndiaBix, LeetCod
   02-logistics-checklist.md
 
 01-gamified-assessment/
-  memory-maze.md
-  path-finder.md
-  quick-fire-math.md
-  classic-cognitive-mcq-fallback.md
+  01-memory-maze.md
+  02-path-finder.md
+  03-quick-fire-math.md
+  04-classic-cognitive-mcq-fallback.md
 
 02-aptitude-reasoning/
   README.md
@@ -40,40 +40,40 @@ ADDITIONAL-RESOURCES.md       — external practice platforms (IndiaBix, LeetCod
 05-communication-assessment/
   README.md
   versant-drills/  (01-reading through 06-spontaneous-speech)
-  grammar-vocab-notes.md
-  self-intro-script.md
-  project-summary-script.md
+  01-grammar-vocab-notes.md
+  02-self-intro-script.md
+  03-project-summary-script.md
 
 06-interview-prep/
   README.md
-  technical-interview-guide.md
-  hr-managerial-guide.md
-  group-discussion-guide.md
-  questions-to-ask-panelist.md
+  01-technical-interview-guide.md
+  02-hr-managerial-guide.md
+  03-group-discussion-guide.md
+  04-questions-to-ask-panelist.md
   star-answers/  (teamwork, conflict-challenge, hackathon-win)
   project-deep-dives/  (bhookly, prepgenius, scrutin)
 
 07-mock-tests/
-  mock-test-1.md + mock-test-1-answers.md
-  mock-test-2.md + mock-test-2-answers.md
-  mock-test-3.md + mock-test-3-answers.md
-  capstone-mock-day.md
+  01-mock-test-1.md + 01-mock-test-1-answers.md
+  02-mock-test-2.md + 02-mock-test-2-answers.md
+  03-mock-test-3.md + 03-mock-test-3-answers.md
+  04-capstone-mock-day.md
 
 08-progress-trackers/
-  aptitude-mock-score-tracker.md
-  dsa-solved-problems-log.md
-  spoken-practice-log.md
-  mock-interview-log.md
+  01-aptitude-mock-score-tracker.md
+  02-dsa-solved-problems-log.md
+  03-spoken-practice-log.md
+  04-mock-interview-log.md
 
 _meta/
-  AUDIT.md
-  COVERAGE-CHECKLIST.md
-  REQUIREMENTS.md
-  TOPICS-TO-COVER.md
-  TRICKS-AND-SHORTCUTS.md
-  RESOURCE-LINKS.md
-  TEACHING-STANDARD.md
+  10-AUDIT.md
+  02-COVERAGE-CHECKLIST.md
+  03-REQUIREMENTS.md
+  01-TOPICS-TO-COVER.md
+  05-TRICKS-AND-SHORTCUTS.md
+  06-RESOURCE-LINKS.md
+  04-TEACHING-STANDARD.md
   00-MASTER-PROMPT.md
-  CLEANUP-AND-REORG-PLAN.md
-  CLEANUP-CHANGELOG.md
+  07-CLEANUP-AND-REORG-PLAN.md
+  08-CLEANUP-CHANGELOG.md
 ```

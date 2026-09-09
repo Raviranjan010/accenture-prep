@@ -3,7 +3,7 @@
 **Total Time**: 90 Minutes  
 **Total Questions**: 90 Questions  
 **Pattern**: 2026 Accenture Cognitive & Technical Assessment  
-**Instructions**: Do not use a calculator. Track your time per section. Log your score in `08-progress-trackers/aptitude-mock-score-tracker.md`.
+**Instructions**: Do not use a calculator. Track your time per section. Log your score in `08-progress-trackers/01-aptitude-mock-score-tracker.md`.
 
 ---
 
@@ -86,7 +86,7 @@ Q10: Which task is highlighted as requiring human developer focus?
 - D) Server hardware maintenance  
 
 ### Q11–Q17: Practice Items
-*(See full questions & explanations in `mock-test-1-answers.md`)*
+*(See full questions & explanations in `01-mock-test-1-answers.md`)*
 
 ---
 
@@ -203,4 +203,4 @@ A client company builds and deploys web applications using Google App Engine wit
 ---
 
 ## Answer Key & Explanations
-For complete step-by-step solutions and scoring instructions, see **[mock-test-1-answers.md](mock-test-1-answers.md)**.
+For complete step-by-step solutions and scoring instructions, see **[01-mock-test-1-answers.md](01-mock-test-1-answers.md)**.

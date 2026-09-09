@@ -1,6 +1,6 @@
 # Accenture Full-Length Mock Test 2 — Answer Key & Solutions
 
-Use this answer key to grade your performance on `mock-test-2.md`. Log your final score in `08-progress-trackers/aptitude-mock-score-tracker.md`.
+Use this answer key to grade your performance on `02-mock-test-2.md`. Log your final score in `08-progress-trackers/01-aptitude-mock-score-tracker.md`.
 
 ---
 

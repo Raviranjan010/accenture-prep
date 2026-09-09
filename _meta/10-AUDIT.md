@@ -1,6 +1,6 @@
-# AUDIT.md — Accenture Prep Repository Audit & Gap Analysis
+# 10-AUDIT.md — Accenture Prep Repository Audit & Gap Analysis
 
-This audit maps the original state of the `accenture-prep` repository against the **Accenture 2026 Hiring Process Syllabus Map ([TOPICS-TO-COVER.md](TOPICS-TO-COVER.md))** and **Quality Standards ([REQUIREMENTS.md](REQUIREMENTS.md))**.
+This audit maps the original state of the `accenture-prep` repository against the **Accenture 2026 Hiring Process Syllabus Map ([01-TOPICS-TO-COVER.md](01-TOPICS-TO-COVER.md))** and **Quality Standards ([03-REQUIREMENTS.md](03-REQUIREMENTS.md))**.
 
 ---
 

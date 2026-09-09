@@ -1,4 +1,4 @@
-# RESOURCE-LINKS.md — Verified Links to Embed in Topic Files
+# 06-RESOURCE-LINKS.md — Verified Links to Embed in Topic Files
 
 Only use these links when generating content. Do not invent new URLs — if a topic needs a video and nothing below fits, add a `TODO: find video` note instead.
 

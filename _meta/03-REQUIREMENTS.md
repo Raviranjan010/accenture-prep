@@ -1,4 +1,4 @@
-# REQUIREMENTS.md — Quality & Structure Bar
+# 03-REQUIREMENTS.md — Quality & Structure Bar
 
 ## Repo-wide rules
 - Keep the top-level folder numbering convention (`00-` through `08-`).

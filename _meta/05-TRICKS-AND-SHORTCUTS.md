@@ -1,6 +1,6 @@
-# TRICKS-AND-SHORTCUTS.md — Inject These Into the Matching Topic Files
+# 05-TRICKS-AND-SHORTCUTS.md — Inject These Into the Matching Topic Files
 
-Each entry: the shortcut + why it works (Antigravity should explain the "why," not just state the rule, per REQUIREMENTS.md).
+Each entry: the shortcut + why it works (Antigravity should explain the "why," not just state the rule, per 03-REQUIREMENTS.md).
 
 ## Gamified round
 - **Memory Maze**: Don't try to memorize the full grid. Lock onto three reference points only — start cell, key cell, door cell — and trace the shortest wall-free route between them during the memorize phase. Why: working memory holds ~3-4 chunks reliably under time pressure; a full grid is too many.

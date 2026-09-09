@@ -3,7 +3,7 @@
 **Total Time**: 90 Minutes  
 **Total Questions**: 90 Questions  
 **Pattern**: 2026 Accenture Cognitive & Technical Assessment  
-**Instructions**: Do not use a calculator. Track your time per section. Log your score in `08-progress-trackers/aptitude-mock-score-tracker.md`.
+**Instructions**: Do not use a calculator. Track your time per section. Log your score in `08-progress-trackers/01-aptitude-mock-score-tracker.md`.
 
 ---
 
@@ -109,4 +109,4 @@ Which CPU scheduling algorithm gives the minimum average waiting time for a give
 ---
 
 ## Answers & Step-by-Step Solutions
-See **[mock-test-2-answers.md](mock-test-2-answers.md)** for detailed answer keys and explanations.
+See **[02-mock-test-2-answers.md](02-mock-test-2-answers.md)** for detailed answer keys and explanations.
