@@ -1,182 +1,189 @@
-# Percentages, Profit & Loss — Complete Study Guide
+# Quantitative Aptitude: Percentages, Profit & Loss
 
-## 1. Definition
-**Percentage** means 'per hundred'—it is simply a ratio expressed as a fraction of 100. It allows us to compare proportions across different totals.
-- **Cost Price (CP)**: The actual amount spent to purchase or manufacture an item.
-- **Selling Price (SP)**: The price at which the item is sold to a customer.
-- **Marked Price (MP)**: The list price printed on the label before any discount.
-- **Profit**: Occurs when SP > CP.
-- **Loss**: Occurs when CP > SP.
-- **Discount**: A reduction offered on the Marked Price (MP - SP).
+## What this is
+Percentages, Profit, and Loss form the core of commercial mathematics evaluated in Accenture assessments. A percentage is a ratio expressed per hundred, providing a standard baseline to evaluate relative changes. Profit and loss calculations evaluate financial gains or losses relative to the Cost Price (CP), while discounts are evaluated relative to the Marked Price (MP).
 
 ---
 
-## 2. Core Formula(s) / Rules
+## Formula / Rule / Pattern
 
-1. **Percentage Value**: $\text{Percentage} = \left(\frac{\text{Part}}{\text{Whole}}\right) \times 100$
-   - *Why it works*: Normalizes any ratio onto a standardized scale of 100 for direct comparison.
-2. **Percentage Increase / Decrease**: $\text{\% Change} = \left(\frac{\text{New Value} - \text{Base Value}}{\text{Base Value}}\right) \times 100$
-   - *Why it works*: Measures change relative strictly to the starting (original) baseline.
-3. **Profit \%**: $\text{Profit \%} = \left(\frac{\text{SP} - \text{CP}}{\text{CP}}\right) \times 100$
-   - *Why it works*: Profit is financial gain calculated on the capital invested (CP).
-4. **Loss \%**: $\text{Loss \%} = \left(\frac{\text{CP} - \text{SP}}{\text{CP}}\right) \times 100$
-   - *Why it works*: Loss is financial loss calculated on the capital invested (CP).
-5. **Discount \%**: $\text{Discount \%} = \left(\frac{\text{MP} - \text{SP}}{\text{MP}}\right) \times 100$
-   - *Why it works*: Discounts are always offered on the marked/list price, not the cost price.
-6. **Net Percentage Change (Successive)**: $\text{Net \%} = a + b + \frac{ab}{100}$
-   - *Why it works*: Accounts for compounding where the second percentage change $b$ applies to the result of the first percentage change $a$.
+| Concept | Standard Formula | Key Rule |
+| :--- | :--- | :--- |
+| **Percentage Value** | $\left(\frac{\text{Part}}{\text{Whole}}\right) \times 100$ | Standardizes ratio on scale of 100 |
+| **Percentage Change** | $\left(\frac{\text{New} - \text{Base}}{\text{Base}}\right) \times 100$ | Always divide strictly by the starting (base) value |
+| **Profit %** | $\left(\frac{\text{SP} - \text{CP}}{\text{CP}}\right) \times 100$ | Evaluated on Cost Price (CP) |
+| **Loss %** | $\left(\frac{\text{CP} - \text{SP}}{\text{CP}}\right) \times 100$ | Evaluated on Cost Price (CP) |
+| **Discount %** | $\left(\frac{\text{MP} - \text{SP}}{\text{MP}}\right) \times 100$ | Evaluated on Marked Price (MP) |
+| **Successive Change %** | $\text{Net \%} = a + b + \frac{ab}{100}$ | Positive for increase, negative for decrease |
 
 ---
 
-## 3. Tricks & Shortcuts
+## Shortcuts & Tricks
 
-### Shortcut 1: Decimal Multipliers for Fast Calculations
-- **Concept**: Instead of calculating percentage separately and adding, multiply CP directly by $(1 + \text{profit rate})$. For a 20% profit, multiply by 1.20; for a 15% loss, multiply by 0.85.
-- **Long Method**: 
-  - Find 20% of 450: $\frac{20}{100} \times 450 = 90$.
-  - Add to original: $450 + 90 = 540$. (Takes 2 steps & 25 seconds)
-- **Shortcut Method**: 
-  - $450 \times 1.2 = 540$. (Takes 1 step & 3 seconds)
-
-### Shortcut 2: Net Effect of Two Successive Percentage Changes ($a\%$ and $b\%$)
-- **Formula**: $\text{Net \%} = a + b + \frac{ab}{100}$ (Use positive for increase, negative for decrease).
-- **Long Method**: 
-  - Price of ₹100 increased by 20% = ₹120.
-  - Then decreased by 10% = $120 - 12 = ₹108$.
-  - Change = $108 - 100 = +8\%$. (3 calculation steps)
-- **Shortcut Method**: 
-  - $\text{Net} = 20 + (-10) + \frac{20 \times (-10)}{100} = 10 - 2 = 8\%$. (Mental math in 4 seconds)
-
-### Shortcut 3: Same Profit \% and Loss \% on Two Items Sold at Same SP
-- **Rule**: If two items are sold at the same Selling Price, one at $x\%$ profit and the other at $x\%$ loss, there is **ALWAYS an overall net loss** of $\frac{x^2}{100}\%$.
-- **Long Method**:
-  - Item 1: $SP = 1200$, Profit $20\% \implies CP_1 = 1200 / 1.2 = 1000$.
-  - Item 2: $SP = 1200$, Loss $20\% \implies CP_2 = 1200 / 0.8 = 1500$.
-  - Total $CP = 2500$, Total $SP = 2400$. Loss = 100. Loss $\% = (100 / 2500) \times 100 = 4\%$. (45 seconds)
-- **Shortcut Method**:
-  - Net Loss $\% = \frac{20^2}{100} = \frac{400}{100} = 4\%$. (2 seconds)
-
----
-
-## 4. Worked Examples
-
-### Example 1 (Easy): Basic Percentage Increase
-**Question**: A candidate scores 420 marks out of 600 in an exam. What is their percentage score? If the passing requirement is 75%, by how many marks did the candidate pass or fail?
-- **Step 1**: Calculate percentage score = $\left(\frac{420}{600}\right) \times 100 = 0.70 \times 100 = 70\%$.
-- **Step 2**: Calculate passing marks required = $75\%$ of $600 = 0.75 \times 600 = 450$ marks.
-- **Step 3**: Compare marks: $450 - 420 = 30$ marks.
-- **Conclusion**: The candidate scored 70% and failed by 30 marks.
-
-### Example 2 (Medium): Profit and Discount Combination
-**Question**: A retailer marks up an item by 40% above its Cost Price (₹800) and then offers a discount of 15% on the Marked Price. Calculate the Marked Price, Selling Price, and Net Profit Percentage.
-- **Step 1**: Calculate Marked Price (MP): $MP = 800 \times 1.40 = ₹1120$.
-- **Step 2**: Calculate Selling Price (SP): $SP = MP \times (1 - 0.15) = 1120 \times 0.85 = ₹952$.
-- **Step 3**: Calculate Profit Amount: $\text{Profit} = SP - CP = 952 - 800 = ₹152$.
-- **Step 4**: Calculate Profit Percentage: $\text{Profit \%} = \left(\frac{152}{800}\right) \times 100 = 19\%$.
-
-### Example 3 (Hard): Dishonest Dealer / False Weights
-**Question**: A dishonest shopkeeper claims to sell sugar at Cost Price, but uses a false weight of 900 grams instead of 1 kilogram (1000 grams). Find his actual profit percentage.
-- **Step 1**: Let the Cost Price of 1 gram sugar be ₹1.
-- **Step 2**: Cost Price of 1000g (claimed quantity) = ₹1000.
-- **Step 3**: Actual weight delivered = 900g. Cost Price of actual sugar given ($CP$) = ₹900.
-- **Step 4**: Money collected from customer ($SP$) = ₹1000 (since he claims to sell 1000g at CP).
-- **Step 5**: Calculate Profit: $SP - CP = 1000 - 900 = ₹100$.
-- **Step 6**: Calculate Profit Percentage: $\text{Profit \%} = \left(\frac{\text{Error}}{\text{True Value} - \text{Error}}\right) \times 100 = \left(\frac{100}{900}\right) \times 100 = 11.11\%$.
-
----
-
-## 5. Common Mistakes
-
-1. **Calculating Profit or Loss percentage on SP instead of CP**:
-   - *Why it happens*: Students use SP in the denominator because it is given last in the question text. Always remember: Profit/Loss is based on CP unless explicitly stated otherwise.
-2. **Incorrectly compounding successive discounts**:
-   - *Why it happens*: Assuming two successive discounts of 20% and 10% equal a single discount of 30%. In reality, 10% applies on the reduced price (80% of original), making the net discount 28%.
-3. **Confusing Percentage Change Base**:
-   - *Why it happens*: If A is 25% more than B, students incorrectly assume B is 25% less than A. If A = 125 and B = 100, B is less than A by $\frac{25}{125} \times 100 = 20\%$.
-
----
-
-## 6. Practice Questions
-
-1. **(Easy)** If the price of petrol increases by 25%, by what percentage must a driver reduce petrol consumption so that the overall expenditure remains unchanged?
-2. **(Easy)** An article bought for ₹600 is sold for ₹750. What is the profit percentage?
-3. **(Easy)** A laptop is marked at ₹45,000. If a festival discount of 12% is offered, what is the final selling price?
-4. **(Medium)** A trader sells two watch models for ₹2,400 each. On the first watch, he gains 20%, and on the second, he loses 20%. What is his overall gain or loss percentage and total monetary loss?
-5. **(Medium)** By selling an item for ₹1,440, a shopkeeper loses 10%. At what price must he sell it to gain 15%?
-6. **(Medium)** A person spends 30% of his income on house rent, 20% of the remaining on food, and 50% of the remaining on children's education. If he saves ₹8,400 per month, what is his total monthly income?
-7. **(Hard)** A manufacturer sells an article to a wholesale dealer at 10% profit. The wholesale dealer sells it to a retailer at 20% profit, and the retailer sells it to a customer for ₹3,267 at a profit of 25%. Find the cost price of the article for the manufacturer.
-8. **(Hard)** A merchant buys 80 kg of rice at ₹40/kg and 120 kg of rice at ₹50/kg. He mixes them and sells 40% of the mixture at ₹55/kg. At what price per kg must he sell the remaining mixture to earn an overall profit of 25%?
-
----
-
-## 7. Answer Key with Explanations
-
-1. **Answer: 20%**
-   - *Explanation*: Let original price = ₹100, consumption = 100 units. Total expenditure = ₹10,000.
-   - New price = ₹125. New consumption required = $\frac{10000}{125} = 80$ units.
-   - Reduction = $100 - 80 = 20$ units $\implies 20\%$.
-   - *Shortcut formula*: $\left(\frac{r}{100 + r}\right) \times 100 = \left(\frac{25}{125}\right) \times 100 = 20\%$.
-
-2. **Answer: 25%**
-   - *Explanation*: $CP = 600$, $SP = 750$.
-   - Profit = $750 - 600 = 150$.
-   - Profit $\% = \left(\frac{150}{600}\right) \times 100 = 25\%$.
-
-3. **Answer: ₹39,600**
-   - *Explanation*: $MP = 45000$, Discount = $12\%$.
-   - $SP = MP \times (1 - 0.12) = 45000 \times 0.88 = ₹39,600$.
-
-4. **Answer: 4% overall loss; ₹200 monetary loss**
-   - *Explanation*: Overall loss $\% = \frac{20^2}{100} = 4\%$.
-   - Total $SP = 2400 + 2400 = ₹4,800$.
-   - Since there is a $4\%$ loss, Total $SP = 96\%$ of Total $CP$.
-   - Total $CP = \frac{4800}{0.96} = ₹5,000$.
-   - Total monetary loss = $5000 - 4800 = ₹200$.
-
-5. **Answer: ₹1,840**
-   - *Explanation*: $SP_1 = 1440$, Loss = $10\% \implies SP_1 = 90\%$ of $CP$.
-   - $CP = \frac{1440}{0.90} = ₹1,600$.
-   - Desired profit = $15\% \implies SP_2 = CP \times 1.15 = 1600 \times 1.15 = ₹1,840$.
-
-6. **Answer: ₹30,000**
-   - *Explanation*: Let income = $I$.
-   - After rent ($30\%$): remaining = $0.70I$.
-   - After food ($20\%$ of remaining): remaining = $0.70I \times 0.80 = 0.56I$.
-   - After education ($50\%$ of remaining): remaining = $0.56I \times 0.50 = 0.28I$.
-   - Given savings $= 0.28I = 8400 \implies I = \frac{8400}{0.28} = ₹30,000$.
-
-7. **Answer: ₹2,250**
-   - *Explanation*: Let manufacturer CP = $X$.
-   - Wholesale CP = $1.10 X$.
-   - Retailer CP = $1.10 X \times 1.20 = 1.32 X$.
-   - Customer price = $1.32 X \times 1.25 = 1.65 X$.
-   - $1.65 X = 3267 \implies X = \frac{3267}{1.65} = ₹2,250$.
-
-8. **Answer: ₹59.17 per kg**
-   - *Explanation*: Total weight = $80 + 120 = 200$ kg.
-   - Total Cost Price = $(80 \times 40) + (120 \times 50) = 3200 + 6000 = ₹9,200$.
-   - Desired total revenue at $25\%$ profit = $9200 \times 1.25 = ₹11,500$.
-   - $40\%$ of mixture sold = $0.40 \times 200 = 80$ kg at ₹55/kg $\implies$ Revenue collected = $80 \times 55 = ₹4,400$.
-   - Remaining revenue needed = $11500 - 4400 = ₹7,100$.
-   - Remaining weight = $200 - 80 = 120$ kg.
-   - Required SP per kg for remaining = $\frac{7100}{120} = ₹59.17$ per kg.
-
-
----
-
-## 8. Quick Revision
-
+### Shortcut 1: Percentage-Fraction Lookup Table
 > [!TIP]
-> ### 🚀 Percentages, Profit & Loss Cheat-Sheet
-> - **Percentage Value**: $\text{Part} / \text{Whole} \times 100$.
-> - **Multiplier Method**: 20% gain $\rightarrow \times 1.20$; 15% loss $\rightarrow \times 0.85$.
-> - **Net Successive Change**: $a + b + \frac{ab}{100}\%$.
-> - **Profit / Loss %**: Calculated strictly on **Cost Price (CP)** unless specified otherwise.
-> - **Discount %**: Calculated strictly on **Marked Price (MP)**.
-> - **Same SP, Same Profit% & Loss%**: Always net loss of $\frac{x^2}{100}\%$.
-> - **False Weight Profit %**: $\frac{\text{Error}}{\text{True Weight} - \text{Error}} \times 100$.
+> Memorize key fraction conversions to replace slow decimal multiplications with instant fraction division:
+> - $12.5\% = 1/8$
+> - $16.67\% = 1/6$
+> - $20\% = 1/5$
+> - $25\% = 1/4$
+> - $33.33\% = 1/3$
+> - $37.5\% = 3/8$
+> - $62.5\% = 5/8$
+> - $66.67\% = 2/3$
+> 
+> *Why it works*: Dividing by 8 mentally is 5x faster than multiplying by 0.125 under timed conditions.
+
+### Shortcut 2: Successive Percentage Change Formula
+> [!TIP]
+> Combine two percentage changes ($a\%$ and $b\%$) using $\text{Net \%} = a + b + \frac{ab}{100}$ instead of calculating sequential values.
+> 
+> *Why it works*: Consolidates two multi-step percentage calculations into a single single-line algebraic formula.
 
 ---
 
-## 9. Connection to Next Topic
-Now that you have mastered percentages, markup, and discount multipliers, the next logical step is using ratios to compare quantities and analyze weighted averages. Continue to **[Ratios & Averages](ratios-averages.md)**!
+## Worked Examples
+
+### Example 1: Basic Profit % (Easy)
+- **Question**: An item bought for ₹600 is sold for ₹750. Find the profit percentage.
+- **Step-by-step Solution**:
+  1. $CP = 600, SP = 750 \implies \text{Profit} = 750 - 600 = ₹150$.
+  2. $\text{Profit \%} = \frac{150}{600} \times 100 = \frac{1}{4} \times 100 = 25\%$.
+
+### Example 2: Discount & Markup (Medium)
+- **Question**: A laptop marked at ₹45,000 is sold after offering a 12% discount. What is the selling price?
+- **Step-by-step Solution**:
+  1. Use multiplier method: $12\%$ discount means $SP = 88\%$ of $MP$.
+  2. $SP = 45000 \times 0.88 = ₹39,600$.
+
+### Example 3: Same SP with Equal Profit/Loss % (Hard)
+- **Question**: Two items are sold for ₹2,400 each. One yields a 20% profit, the other a 20% loss. What is the net overall monetary profit/loss?
+- **Step-by-step Solution**:
+  1. Rule: Net percentage loss $= \frac{x^2}{100}\% = \frac{20^2}{100} = 4\%$ loss.
+  2. Total $SP = 2400 + 2400 = ₹4,800$.
+  3. Total $CP = \frac{4800}{1 - 0.04} = \frac{4800}{0.96} = ₹5,000$.
+  4. Net monetary loss $= 5000 - 4800 = ₹200 \text{ loss}$.
+
+---
+
+## Practice Questions (PYQ Bank)
+
+Q1. If salary increases by 20% and then decreases by 20%, what is the net percentage change?  
+a) 0%  
+b) 4% decrease  
+c) 4% increase  
+d) 2% decrease  
+
+Q2. What is $37.5\%$ of 640?  
+a) 200  
+b) 220  
+c) 240  
+d) 260  
+
+Q3. A trader sells an article for ₹1,840 to gain 15%. What was the cost price?  
+a) ₹1,500  
+b) ₹1,600  
+c) ₹1,650  
+d) ₹1,700  
+
+Q4. By selling 12 oranges for ₹100, a man loses 20%. How many oranges should he sell for ₹100 to gain 20%?  
+a) 8  
+b) 9  
+c) 10  
+d) 11  
+
+Q5. Single discount equivalent to successive discounts of 20% and 10% is:  
+a) 30%  
+b) 28%  
+c) 25%  
+d) 32%  
+
+Q6. Cost price of 20 items equals selling price of $x$ items. If profit is 25%, find $x$.  
+a) 15  
+b) 16  
+c) 18  
+d) 12  
+
+Q7. Price of petrol increases by 25%. By what % must a driver reduce consumption to keep expenditure constant?  
+a) 25%  
+b) 20%  
+c) 16.67%  
+d) 15%  
+
+Q8. A dishonest dealer professes to sell goods at cost price but uses a 900g weight for 1 kg. Profit % is:  
+a) 10%  
+b) 11.11%  
+c) 12.5%  
+d) 9%  
+
+Q9. A sum becomes 1.44 times itself in 2 years at continuous percentage growth. What is annual rate of growth?  
+a) 20%  
+b) 44%  
+c) 12%  
+d) 22%  
+
+Q10. If $A$'s income is 25% more than $B$'s, by what percentage is $B$'s income less than $A$'s?  
+a) 25%  
+b) 20%  
+c) 15%  
+d) 30%  
+
+Q11. Marked price of a watch is ₹1,600. After two successive discounts, customer pays ₹1,224. If 1st discount is 10%, find 2nd discount %.  
+a) 12%  
+b) 15%  
+c) 10%  
+d) 18%  
+
+Q12. What is $66.67\%$ of 360?  
+a) 240  
+b) 180  
+c) 200  
+d) 220  
+
+Q13. In an election, winner gets 60% of total votes and wins by 4,000 votes. Total votes polled:  
+a) 15,000  
+b) 20,000  
+c) 25,000  
+d) 30,000  
+
+Q14. If CP of an article is 80% of SP, what is the profit percentage?  
+a) 20%  
+b) 25%  
+c) 16.67%  
+d) 30%  
+
+Q15. Price of sugar falls by 20%. A person buys 5 kg more for ₹600. Find reduced price per kg.  
+a) ₹24/kg  
+b) ₹30/kg  
+c) ₹20/kg  
+d) ₹25/kg  
+
+---
+
+## Answers
+
+1. **b) 4% decrease** — Net $\% = 20 - 20 - (20 \times 20)/100 = -4\%$.
+2. **c) 240** — $37.5\% = 3/8$. $3/8 \times 640 = 240$.
+3. **b) ₹1,600** — $CP = 1840 / 1.15 = 1600$.
+4. **a) 8** — $SP_1 = 100/12$. $CP = (100/12)/0.8 = 100/9.6$. Desired $SP_2 = (100/9.6) \times 1.2 = 100/8 \implies 8$ oranges for ₹100.
+5. **b) 28%** — $\text{Net discount} = 20 + 10 - (20 \times 10)/100 = 28\%$.
+6. **b) 16** — $(20 - x)/x = 0.25 \implies 20 - x = 0.25x \implies 1.25x = 20 \implies x = 16$.
+7. **b) 20%** — Reduction $\% = \frac{R}{100+R} \times 100 = \frac{25}{125} \times 100 = 20\%$.
+8. **b) 11.11%** — $\text{Profit \%} = \frac{\text{Error}}{\text{True Weight} - \text{Error}} \times 100 = \frac{100}{900} \times 100 = 11.11\%$.
+9. **a) 20%** — $(1+r)^2 = 1.44 \implies 1+r = 1.2 \implies r = 20\%$.
+10. **b) 20%** — $\frac{25}{100+25} \times 100 = \frac{25}{125} \times 100 = 20\%$.
+11. **b) 15%** — Price after 10% disc $= 1600 \times 0.9 = 1440$. 2nd disc $= \frac{1440 - 1224}{1440} \times 100 = \frac{216}{1440} \times 100 = 15\%$.
+12. **a) 240** — $2/3 \times 360 = 240$.
+13. **b) 20,000** — Winner - Loser $= 60\% - 40\% = 20\%$. $20\% \text{ of Total} = 4000 \implies \text{Total} = 20,000$.
+14. **b) 25%** — $CP = 0.8 SP \implies SP/CP = 1.25 \implies 25\%$ profit.
+15. **a) ₹24/kg** — Money saved $= 20\% \text{ of } 600 = ₹120$. Reduced price $= 120 / 5 = ₹24$/kg.
+
+---
+
+## Where this appears in the real Accenture test
+Appears in Stage 1 & Stage 2: Quantitative Aptitude MCQ round.
+
+---
+
+## Recommended videos
+- [PrepInsta Accenture Quantitative Papers](https://prepinsta.com/accenture-previous-papers/) — Sourced PYQs and practice notes.

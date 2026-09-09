@@ -1,336 +1,188 @@
-# Core CS Fundamentals: Object-Oriented Programming (OOP)
+# CS Fundamentals: Object-Oriented Programming (OOP)
 
-## 1. What is it?
-**Object-Oriented Programming (OOP)** is a software programming model that organizes code around real-world "objects" rather than just isolated functions and commands.
-
-### Beginner Vocabulary Glossary
-Before looking at any code, let's define the fundamental terms:
-- **Programming / Code**: Writing instructions for a computer to perform tasks.
-- **Variable**: A named storage container in computer memory used to hold data (e.g., storing a user's age `age = 21`).
-- **Function / Method**: A reusable block of code that performs a specific action when called (e.g., `calculateTotal()`).
-- **Class**: A **blueprint** or master template used to create objects. It defines what attributes (variables) and actions (methods) an object will have.
-- **Object**: A specific, real instance created from a class blueprint containing actual data values.
+## What this is
+Object-Oriented Programming (OOP) is a software design paradigm structured around "objects" containing data (attributes/fields) and code (methods/functions). It enforces modularity, code reusability, maintainability, and encapsulation across industrial software development.
 
 ---
 
-## 2. Why does it matter?
-1. **Accenture Assessment & Technical Interviews**: OOP is one of the most heavily tested CS topics in technical MCQs and live coding rounds.
-2. **Code Reusability & Maintainability**: Instead of rewriting code for every new feature, you can extend existing class blueprints.
-3. **Enterprise Scalability**: Large production software systems (e.g., e-commerce platforms, banking apps) rely on OOP to keep millions of lines of code organized and modular.
+## Formula / Rule / Pattern
+
+| Core OOP Pillar | Technical Definition | Code Realization / Keyword |
+| :--- | :--- | :--- |
+| **Encapsulation** | Bundling data and methods into a single unit; restricting direct access | `private` variables + `public` getters/setters |
+| **Abstraction** | Hiding complex internal implementation details, exposing only essential interfaces | `interface`, `abstract class` |
+| **Inheritance** | Mechanism where a child class acquires properties of a parent class | `extends` (Java), `: public` (C++) |
+| **Polymorphism** | Ability of a single method name or operator to exhibit multiple behaviors | Overloading (Compile-time), Overriding (Runtime) |
 
 ---
 
-## 3. When to use it?
-- **Use OOP when**: Building medium-to-large software applications with complex domain entities that interact with each other (e.g., Users, Products, Orders, Payments).
-- **Do not use OOP when**: Writing small, single-purpose scripts (e.g., automating a file rename or simple data transformation script) where functional/procedural scripts are faster.
-
----
-
-## 4. How it works
-1. **Class Definition**: You write a class defining variables (state) and methods (behavior).
-2. **Instantiation (Object Creation)**: When the program runs, it creates an object using the `new` keyword.
-3. **Memory Allocation**: The computer allocates RAM memory (on the **Heap**) for the new object, while a pointer reference is stored on the **Stack**.
-4. **Method Invocation**: You trigger object methods (e.g., `myCar.drive()`) to manipulate the object's internal data.
-
----
-
-## 5. Key rules or syntax
-
-### Class and Object Syntax (Java / C++)
-```java
-// Class Blueprint
-class Car {
-    // 1. Attributes (State / Variables)
-    String color;
-    int speed;
-
-    // 2. Constructor (Special method to initialize new objects)
-    public Car(String c, int s) {
-        this.color = c;
-        this.speed = s;
-    }
-
-    // 3. Method (Behavior / Action)
-    public void drive() {
-        System.out.println("Driving at " + speed + " km/h.");
-    }
-}
-
-// Object Instantiation in Main Method
-public class Main {
-    public static void main(String[] args) {
-        Car myCar = new Car("Red", 100); // Creating an Object
-        myCar.drive(); // Output: Driving at 100 km/h.
-    }
-}
-```
-*Why constructors work*: Constructors automatically allocate and assign initial values to object memory the moment an object is instantiated.
-
----
-
-## 6. Simple example
-
-### Level 1 (Easy): Basic Class and Object
-- **Concept**: Creating a `Student` object from a `Student` class blueprint.
-```java
-class Student {
-    String name;
-    int marks;
-
-    void displayInfo() {
-        System.out.println(name + " scored " + marks + " marks.");
-    }
-}
-
-public class SimpleDemo {
-    public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.name = "Ravi";
-        s1.marks = 95;
-        s1.displayInfo(); // Output: Ravi scored 95 marks.
-    }
-}
-```
-
----
-
-## 7. Detailed example
-
-### The 4 Pillars of OOP & SOLID Principles
-
-#### Pillar 1: Encapsulation
-- **Definition**: Bundling data (variables) and methods inside a single unit (class) while restricting direct access to internal state using access specifiers (`private`, `protected`, `public`).
-- **Simple Beginner Example**: Hiding a person's age variable so it cannot be set to a negative number.
-- **Realistic Enterprise Example**:
-```java
-public class BankAccount {
-    // Private variable: cannot be modified directly from outside
-    private double balance;
-
-    public BankAccount(double initialBalance) {
-        if (initialBalance >= 0) {
-            this.balance = initialBalance;
-        }
-    }
-
-    // Controlled getter method
-    public double getBalance() {
-        return this.balance;
-    }
-
-    // Controlled setter method with validation
-    public void deposit(double amount) {
-        if (amount > 0) {
-            this.balance += amount;
-            System.out.println("Successfully deposited ₹" + amount);
-        } else {
-            System.out.println("Invalid deposit amount!");
-        }
-    }
-}
-```
-
-#### Pillar 2: Abstraction
-- **Definition**: Hiding complex internal implementation details and showing only essential interfaces to the user.
-- **Simple Beginner Example**: Driving a car using a steering wheel without needing to understand fuel injection mechanics.
-- **Realistic Enterprise Example**:
-```java
-// Abstract interface: specifies WHAT to do, not HOW to do it
-interface PaymentProcessor {
-    void processPayment(double amount);
-}
-
-class StripePayment implements PaymentProcessor {
-    public void processPayment(double amount) {
-        // Complex Stripe API token handshake & encryption details hidden here
-        System.out.println("Processing ₹" + amount + " via Stripe API.");
-    }
-}
-
-class PayPalPayment implements PaymentProcessor {
-    public void processPayment(double amount) {
-        // Complex PayPal OAuth & REST payload hidden here
-        System.out.println("Processing ₹" + amount + " via PayPal OAuth.");
-    }
-}
-```
-
-#### Pillar 3: Inheritance
-- **Definition**: Mechanism where a child class (subclass) automatically derives variables and methods from a parent class (superclass), promoting code reuse.
-- **Simple Beginner Example**: `Dog` class inheriting `eat()` from `Animal` class.
-- **Realistic Enterprise Example**:
-```java
-class User {
-    protected String userId;
-    protected String email;
-
-    public void login() {
-        System.out.println(email + " logged in successfully.");
-    }
-}
-
-// AdminUser inherits all properties of User and adds admin-specific features
-class AdminUser extends User {
-    private int adminAccessLevel;
-
-    public void deleteDatabaseBackup() {
-        System.out.println("Admin " + userId + " executed database wipe.");
-    }
-}
-```
-
-#### Pillar 4: Polymorphism
-- **Definition**: The ability of a single method or object to take on multiple forms depending on the context.
-- **Compile-Time Polymorphism (Method Overloading)**: Same method name with different parameters in the same class.
-- **Run-Time Polymorphism (Method Overriding)**: Subclass provides a specific implementation of a method already declared in its parent class.
-- **Realistic Enterprise Example (Method Overriding)**:
-```java
-class NotificationSender {
-    public void sendNotification(String message) {
-        System.out.println("Sending default notification: " + message);
-    }
-}
-
-class EmailNotification extends NotificationSender {
-    @Override
-    public void sendNotification(String message) {
-        System.out.println("Sending Email via SMTP: " + message);
-    }
-}
-
-class SMSNotification extends NotificationSender {
-    @Override
-    public void sendNotification(String message) {
-        System.out.println("Sending SMS via Twilio Gateway: " + message);
-    }
-}
-```
-
----
-
-### SOLID Principles Overview
-1. **Single Responsibility Principle (SRP)**: A class should have one, and only one, reason to change.
-2. **Open/Closed Principle (OCP)**: Classes should be open for extension, but closed for modification.
-3. **Liskov Substitution Principle (LSP)**: Derived classes must be completely substitutable for their base classes without breaking app logic.
-4. **Interface Segregation Principle (ISP)**: Clients should not be forced to depend upon interface methods they do not use.
-5. **Dependency Inversion Principle (DIP)**: Depend on abstractions (interfaces), not on concrete implementations.
-
----
-
-## 8. Practical use case
-**E-Commerce Platform Architecture**:
-In a real-world platform like Amazon:
-- `Product` class encapsulates price, stock quantity, and discounts.
-- `User` class is extended via Inheritance into `Customer` and `Seller`.
-- `PaymentProcessor` interface uses Abstraction & Polymorphism to process payments through Credit Card, UPI, or NetBanking interchangeably without breaking the checkout service code.
-
----
-
-## 9. Common mistakes
-
-### Concept 1: Encapsulation Mistakes
-- *Mistake*: Making class variables `public` for convenience.
-- *Why it happens*: Avoids writing getters/setters, but allows external code to mutate invalid states (e.g., `account.balance = -50000`).
-
-### Concept 2: Polymorphism & Overriding Mistakes
-- *Mistake*: Confusing Method Overloading (Compile-Time, same class, different parameters) with Method Overriding (Run-Time, parent-child, exact same parameters).
-- *Why it happens*: Both use similar method names. Always check parameter signatures and class hierarchy.
-
-### Concept 3: Inheritance Mistakes
-- *Mistake*: Creating deep, rigid inheritance chains (e.g., `A` extends `B` extends `C` extends `D` extends `E`).
-- *Why it happens*: Overusing inheritance instead of composition ("Has-A" relationship). Changes in base class `A` accidentally break child classes `E`.
-
----
-
-## 10. Tips & tricks
-
-### Shortcut 1: The "Is-A" vs "Has-A" Test
-- **Concept**: To decide between Inheritance and Composition:
-  - If "Dog **Is-A** Animal" makes sense $\implies$ Use **Inheritance** (`class Dog extends Animal`).
-  - If "Car **Has-A** Engine" makes sense $\implies$ Use **Composition** (`class Car { Engine e; }`).
-
-### Shortcut 2: The `@Override` Annotation Shield
-- **Rule**: Always write `@Override` above overridden methods. If you make a typo in the method name, the compiler will raise an error immediately instead of silently treating it as a new method.
-
-### Shortcut 3: Interface Decoupling Rule
-- **Rule**: Declare variable types as Interfaces, not concrete classes:
-  - *Slow/Rigid*: `ArrayList<String> list = new ArrayList<>();`
-  - *Best Practice*: `List<String> list = new ArrayList<>();` (Allows changing implementation to `LinkedList` later in 1 second).
-
----
-
-## 11. Practice exercises
-
-1. **(Easy - Recall)** What is the difference between a Class and an Object?
-2. **(Easy - Recall)** Which access modifier restricts variable visibility strictly within the same class?
-3. **(Easy - Concept)** Is method overloading resolved at compile-time or run-time?
-4. **(Medium - Why)** Why should instance variables in a class be declared `private` rather than `public`?
-5. **(Medium - Scenario)** A developer writes `class Bird { void fly() {} }` and `class Ostrich extends Bird {}`. Why does this violate Liskov Substitution Principle (LSP)?
-6. **(Medium - Applied)** Identify whether Method Overloading or Overriding is present:
-   ```java
-   class MathUtils {
-       int add(int a, int b) { return a + b; }
-       double add(double a, double b) { return a + b; }
-   }
-   ```
-7. **(Medium - Scenario)** What will be the output of the following code snippet?
-   ```java
-   class Parent {
-       void show() { System.out.println("Parent"); }
-   }
-   class Child extends Parent {
-       void show() { System.out.println("Child"); }
-   }
-   public class Test {
-       public static void main(String[] args) {
-           Parent obj = new Child();
-           obj.show();
-       }
-   }
-   ```
-8. **(Hard - Applied)** Design a Java class structure for a `Shape` interface with `getArea()` method, implemented by `Rectangle` and `Circle` classes.
-9. **(Hard - Scenario)** In Java, why is multiple inheritance through classes disallowed, but multiple inheritance through interfaces allowed?
-10. **(Hard - Architecture)** Explain how the Single Responsibility Principle (SRP) prevents code regression when modifying business logic in an enterprise backend.
-
----
-
-## 12. Q&A with explanations
-
-1. **Answer**: A **Class** is a blueprint/template that defines structure and behaviors. An **Object** is a specific instance created from that blueprint residing in memory with actual values.
-2. **Answer**: `private`.
-3. **Answer**: Compile-time (Static Polymorphism).
-4. **Answer**: Declaring variables `private` enforces **Encapsulation**. It prevents external code from mutating fields directly into invalid states, ensuring data validation occurs through setter methods.
-5. **Answer**: Ostriches cannot fly. Subclass `Ostrich` inheriting `fly()` from `Bird` causes unexpected runtime behavior or forced dummy overrides when an `Ostrich` is passed where a `Bird` is expected, breaking LSP.
-6. **Answer**: **Method Overloading** (same method name `add` with different parameter types in the same class).
-7. **Answer**: Output: **"Child"**. Because `obj` refers to a `Child` instance in memory, runtime polymorphism invokes the overridden `Child` method.
-8. **Answer**:
-   ```java
-   interface Shape { double getArea(); }
-   class Circle implements Shape {
-       double r;
-       Circle(double r) { this.r = r; }
-       public double getArea() { return Math.PI * r * r; }
-   }
-   ```
-9. **Answer**: To prevent the **Diamond Problem** (ambiguity when two parent classes define the same method with different implementations). Interfaces specify method contracts without instance state ambiguity.
-10. **Answer**: SRP ensures each class has only one reason to change (e.g., `UserRepository` handles DB operations, `EmailService` handles emails). Changing database logic won't accidentally break email delivery code.
-
----
-
-## 13. Quick revision
+## Shortcut: Compile-Time vs Runtime Polymorphism Matrix
 
 > [!TIP]
-> ### 🚀 OOP Cheat-Sheet
-> - **4 Pillars**:
->   - **Encapsulation**: Private data + Public getters/setters.
->   - **Abstraction**: Hide internal complexity behind interfaces.
->   - **Inheritance**: `extends` keyword, code reuse ("Is-A").
->   - **Polymorphism**: Overloading (Compile-time) vs Overriding (Run-time).
-> - **Overloading**: Same class, same method name, **different parameters**.
-> - **Overriding**: Parent-child, same method name, **exact same parameters**.
-> - **Memory**: Stack stores reference pointers; Heap stores actual Object data.
+> ### The Polymorphism Disambiguation Matrix
+> Distinguish Overloading from Overriding using this 3-point checklist:
+> 
+> 1. **Overloading (Compile-Time)**: Same method name, **different parameter signature**, occurs **within the same class**. Resolved by compiler during compilation.
+> 2. **Overriding (Runtime)**: Same method name, **identical parameter signature**, occurs across **Parent and Child classes**. Resolved dynamically at runtime using virtual method tables (`vtable`).
+> 
+> *Why it works*: 90% of OOP assessment questions test whether changing parameters or class hierarchy changes overloading to overriding.
 
 ---
 
-## 14. Connection to next topic
-Now that you understand how objects structure data in memory during application runtime, the next step is learning how to persist this data permanently in relational tables. Continue to **[dbms-normalization-joins.md](dbms-normalization-joins.md)** to learn about Database Management Systems, Normalization, and SQL Joins!
+## Worked Examples
+
+### Example 1: Encapsulation (Easy)
+- **Question**: Why are class member variables declared `private` in Java?
+- **Step-by-step Solution**:
+  1. `private` prevents external classes from directly mutating variable states arbitrarily.
+  2. Access is controlled via controlled `public` getter and setter methods containing validation logic.
+  3. **Concept**: Encapsulation & Data Hiding.
+
+### Example 2: Method Overriding & Dynamic Binding (Medium)
+- **Code snippet**:
+```java
+class Parent {
+    void show() { System.out.println("Parent"); }
+}
+class Child extends Parent {
+    void show() { System.out.println("Child"); }
+}
+public class Test {
+    public static void main(String[] args) {
+        Parent obj = new Child();
+        obj.show();
+    }
+}
+```
+- **Step-by-step Solution**:
+  1. `obj` reference type is `Parent`, but instance type created at runtime is `Child`.
+  2. Since `show()` is overridden, Java performs dynamic method dispatch at runtime.
+  3. The overridden method in `Child` executes.
+  4. **Output**: `Child`.
+
+### Example 3: Abstract Class vs Interface Tradeoff (Hard)
+- **Question**: When should an architect choose an `Abstract Class` over an `Interface` in Java 8+?
+- **Step-by-step Solution**:
+  1. Use `Abstract Class` when classes share common non-static state (`protected`/`private` fields) or constructor initialization logic.
+  2. Use `Interface` when defining a pure contract across completely unrelated classes (e.g. `Comparable`, `Serializable`), supporting multiple inheritance of interfaces.
+
+---
+
+## Practice Questions (PYQ Bank)
+
+Q1. Which OOP feature binds code and data together while keeping both safe from outside interference?  
+a) Inheritance  
+b) Encapsulation  
+c) Polymorphism  
+d) Abstraction  
+
+Q2. What is the output of overloading a method with identical parameter types and names but a different return type in Java?  
+a) Overriding occurs  
+b) Compile-time error  
+c) Runtime error  
+d) Code executes cleanly  
+
+Q3. Can an abstract class in Java be instantiated using the `new` operator directly?  
+a) Yes  
+b) No (Abstract classes cannot be instantiated directly)  
+
+Q4. Which keyword is used by a child class to call a overridden parent method in Java?  
+a) `this`  
+b) `super`  
+c) `parent`  
+d) `base`  
+
+Q5. Which type of polymorphism is achieved through method overloading?  
+a) Compile-time polymorphism  
+b) Runtime polymorphism  
+c) Dynamic polymorphism  
+d) Deferred polymorphism  
+
+Q6. In C++, which keyword enables dynamic method binding for runtime polymorphism?  
+a) `static`  
+b) `virtual`  
+c) `inline`  
+d) `friend`  
+
+Q7. Multiple inheritance of classes (one child class inheriting directly from two parent classes) is NOT directly supported in which language?  
+a) C++  
+b) Python  
+c) Java (classes)  
+d) Lisp  
+
+Q8. What type of member variable is shared across all instances of a class?  
+a) `private` variable  
+b) `static` variable  
+c) `local` variable  
+d) `transient` variable  
+
+Q9. What is a constructor?  
+a) A special method called automatically when an object instance is instantiated  
+b) A method that destroys objects  
+c) A static loop  
+d) An interface  
+
+Q10. Can a `final` class be inherited in Java?  
+a) Yes  
+b) No (`final` keyword prevents inheritance)  
+
+Q11. What is operator overloading?  
+a) Giving extended meaning to existing language operators (+, -, *) for user-defined object types  
+b) Deleting operators  
+c) Writing math equations  
+d) Converting integers to floats  
+
+Q12. What access modifier restricts member visibility strictly to the defining class and its subclasses?  
+a) `public`  
+b) `private`  
+c) `protected`  
+d) `default`  
+
+Q13. In Java, all classes implicitly inherit from which root superclass?  
+a) `java.lang.System`  
+b) `java.lang.Object`  
+c) `java.lang.Class`  
+d) `java.util.Base`  
+
+Q14. What is a pure virtual function in C++?  
+a) A virtual function set to `= 0` making the class abstract  
+b) A normal function  
+c) A static function  
+d) A private constructor  
+
+Q15. Why does Method Overriding require exact parameter signature matching?  
+a) To match the exact function signature in the virtual method table (`vtable`) for runtime resolution  
+b) To save RAM  
+c) To prevent syntax errors  
+d) Compiler requirement only  
+
+---
+
+## Answers
+
+1. **b) Encapsulation** — Encapsulation binds state and behavior into a single class container.
+2. **b) Compile-time error** — Method overloading in Java requires different parameter types/counts; changing return type alone is invalid.
+3. **b) No** — Abstract classes cannot be instantiated directly with `new`.
+4. **b) `super`** — `super.methodName()` calls parent class implementation.
+5. **a) Compile-time polymorphism** — Method overloading is resolved during compilation.
+6. **b) `virtual`** — `virtual` keyword populates the vtable in C++.
+7. **c) Java (classes)** — Java prevents multiple class inheritance to avoid the Diamond Problem.
+8. **b) `static` variable** — Static variables belong to the class rather than instance objects.
+9. **a) A special method called automatically...** — Constructor definition.
+10. **b) No** — `final` class cannot be extended.
+11. **a) Giving extended meaning to existing language operators...** — Operator overloading definition.
+12. **c) `protected`** — Accessible within defining class, package, and subclasses.
+13. **b) `java.lang.Object`** — Root of Java class hierarchy.
+14. **a) A virtual function set to `= 0`...** — Definition of pure virtual function in C++.
+15. **a) To match the exact function signature in the virtual method table...** — Runtime lookup mechanism.
+
+---
+
+## Where this appears in the real Accenture test
+Appears in Stage 2: Core CS Fundamentals Technical MCQ section.
+
+---
+
+## Recommended videos
+- [Accenture Technical Assessment Walkthrough (2026-relevant)](https://www.youtube.com/watch?v=DwZZNJxBAn0) — CS fundamentals questions.
+- [Accenture Mock Technical Assessment](https://www.youtube.com/watch?v=JM2Uc9KJ-Ys) — Code execution and OOP Q&A.

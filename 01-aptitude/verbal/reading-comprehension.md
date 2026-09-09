@@ -1,159 +1,169 @@
-# Reading Comprehension — Complete Study Guide
+# Verbal Ability: Reading Comprehension
 
-## 1. Definition
-**Reading Comprehension (RC)** evaluates your ability to quickly read a passage, understand main themes, extract direct facts, infer unstated logical conclusions, and analyze tone and vocabulary under timed conditions.
-- **Skimming**: Reading rapidly to get the general overview/main idea without stopping for details.
-- **Scanning**: Searching specific key terms or numbers in the text.
-- **Inference**: A conclusion derived from facts explicitly stated in the passage.
-- **Tone**: The author's attitude towards the subject (e.g., critical, optimistic, neutral, analytical).
+## What this is
+Reading Comprehension (RC) tests your speed-reading efficiency, main-idea extraction, vocabulary-in-context deduction, and logical inference skills from unseen textual passages. In Accenture verbal assessments, short-to-medium passages (150–250 words) are paired with 3–5 rapid-fire questions under strict time constraints.
 
 ---
 
-## 2. Core Formula(s) / Rules
+## Formula / Rule / Pattern
 
-1. **Question-First Skimming Rule**:
-   - Read question stems BEFORE reading the passage.
-   - *Why it works*: Pre-programs your brain to spot target keywords and answers during your first read, saving 40% reading time.
-2. **Fact vs. Inference Rule**:
-   - Direct Fact = Explicitly stated in the text.
-   - Inference = Strictly logical next step based ONLY on given facts; cannot introduce outside knowledge.
-3. **Paragraph Topic Sentence Rule**:
-   - The first and last sentence of each paragraph contain 80% of the core idea of that paragraph.
-4. **Extreme Word Elimination Rule**:
-   - Options containing extreme absolute words like *always, never, completely, impossible, sole, all* are WRONG 90% of the time in RC.
-   - Moderate options using words like *can, may, often, generally, some* are far more likely to be correct.
+| Question Type | Objective | Reading Strategy |
+| :--- | :--- | :--- |
+| **Main Idea / Title** | Identify central premise | Read 1st & last sentence of each paragraph |
+| **Direct Factual** | Locate specific detail | Keyword scan matching |
+| **Inference** | Deduce unstated logical consequence | Evaluate strictly within passage boundaries (no outside assumptions) |
+| **Vocabulary in Context** | Determine contextual word meaning | Substitute option choices directly into the sentence |
 
 ---
 
-## 3. Tricks & Shortcuts
-
-### Shortcut 1: Question-First Keyword Anchor Method
-- **Concept**: Read 4 question stems (not options), circle key terms (e.g., "1994", "GDP growth", "Dr. Smith"), then scan text.
-- **Long Method**: Read full 500-word passage $\rightarrow$ Read Q1 $\rightarrow$ Re-read passage $\rightarrow$ Read Q2 $\rightarrow$ Re-read passage. (Takes 4 minutes per set).
-- **Shortcut Method**: Target keyword scanning directly leads to answers in 90 seconds.
-
-### Shortcut 2: Tone Word Polarity Filter
-- **Rule**: Classify author's tone quickly as Positive (+), Negative (-), or Neutral (0).
-- **Example**: If author criticizes government policy using words like "flawed, shortsighted, mismanaged", tone is Negative. Eliminate options like "Laudatory" (+), "Appreciative" (+), or "Indifferent" (0).
-
-### Shortcut 3: Scope Trap Elimination
-- **Rule**: Eliminate options that are "Too Broad" (covers world history when passage is about UK) or "Too Narrow" (focuses on 1 minor example from paragraph 2 as the main idea).
-
----
-
-## 4. Worked Examples
-
-### Example 1 (Easy): Direct Fact Extraction
-**Passage**: *"The renewable energy sector experienced a record 18% growth in 2023, primarily driven by solar photovoltaic installations in Asia. However, grid connectivity issues in remote rural areas continue to bottle up potential distribution, preventing full utilization of generated power."*
-
-**Question**: What is identified as the main obstacle to full utilization of renewable power?
-- **Step 1**: Identify key phrase in question: "main obstacle to full utilization".
-- **Step 2**: Scan passage for "obstacle" / "preventing full utilization".
-- **Step 3**: Locate text: "...grid connectivity issues in remote rural areas continue to bottle up potential distribution, preventing full utilization...".
-- **Answer**: Grid connectivity issues in remote rural areas.
-
-### Example 2 (Medium): Author's Tone & Main Idea
-**Passage**: *"While artificial intelligence promises unprecedented productivity gains, blindly deploying autonomous systems without regulatory oversight is a recipe for catastrophic failure. Algorithms inherit human biases and amplify them at scale. We must establish rigorous ethical safeguards before handing control to automated models."*
-
-**Question**: Which of the following best describes the author's attitude towards AI deployment?
-- **Step 1**: Analyze word choices: "blindly deploying", "recipe for catastrophic failure", "amplify biases", "rigorous safeguards".
-- **Step 2**: Evaluate polarity: Highly cautious, critical of unchecked deployment, urging safety.
-- **Step 3**: Compare options:
-  - a) Unconditionally enthusiastic
-  - b) Cautious and advocating regulation
-  - c) Dismissive of AI technology
-  - d) Indifferent
-- **Answer**: **b) Cautious and advocating regulation**.
-
-### Example 3 (Hard): Critical Inference
-**Passage**: *"Historically, companies prioritized quarterly dividend payouts to keep investors satisfied. However, modern tech firms frequently reinvest 100% of their retained earnings into R&D and strategic acquisitions. Consequently, investors in tech firms rely almost entirely on capital appreciation rather than dividend income for returns."*
-
-**Question**: Which of the following can be inferred from the passage?
-- **Step 1**: Read statement facts: Tech firms reinvest earnings into R&D instead of dividends $\implies$ investors gain when share price rises (capital appreciation).
-- **Step 2**: Evaluate options:
-  - Option A: Tech firms never make profits. (False/Extreme)
-  - Option B: Investors in modern tech firms should not expect regular dividend checks. (Valid inference directly supported by text)
-  - Option C: Quarterly dividends are illegal in tech sector. (False/Out of scope)
-- **Answer**: **Option B**.
-
----
-
-## 5. Common Mistakes
-
-1. **Bringing Outside Knowledge**:
-   - *Why it happens*: Answering based on what you learned in college instead of what is written in the passage. If the passage says "The moon is made of green cheese", treat it as true for that set!
-2. **Falling for "Partial Truth" Options**:
-   - *Why it happens*: Choosing an option where the first half is correct according to passage, but the second half adds an unmentioned detail.
-3. **Misreading Negation Questions**:
-   - *Why it happens*: Overlooking words like "EXCEPT", "NOT", or "INCORRECT" in question stems.
-
----
-
-## 6. Practice Questions
-
-*(Based on Passage below)*
-**Passage**:
-*"Automation in manufacturing has evolved beyond robotic arm assembly lines to include predictive AI maintenance. By analyzing sensor data in real-time, algorithms detect equipment wear days before component failure occurs. This transition from reactive repairs to predictive maintenance cuts factory downtime by up to 35%. Nevertheless, small-scale enterprises struggle to adopt these tools due to high initial capital expenditure and a shortage of skilled data technicians."*
-
-1. **(Easy)** What percentage reduction in factory downtime can predictive maintenance achieve?
-2. **(Easy)** What type of data does the AI analyze in real-time?
-3. **(Easy)** Identify a synonym from the text for "equipment breakdown".
-4. **(Medium)** Why do small enterprises find it difficult to adopt predictive AI maintenance?
-5. **(Medium)** What is the primary shift in maintenance strategy described in the passage?
-6. **(Medium)** What is the tone of the passage regarding AI in manufacturing?
-7. **(Hard)** Which of the following assumptions underlies the author's claim about small enterprises?
-   - a) Small enterprises do not suffer from factory downtime.
-   - b) The financial cost and technical skill barrier outweigh immediate benefits for small enterprises.
-   - c) Predictive AI maintenance is ineffective in small factories.
-   - d) Robotic arms are cheaper than AI sensors.
-8. **(Hard)** Which of the following titles best suits the passage?
-   - a) The Extinction of Manual Manufacturing
-   - b) Predictive Maintenance: Advantages and Adoption Hurdles
-   - c) Why Small Businesses Fail in Industry 4.0
-   - d) The History of Robotic Assembly Lines
-
----
-
-## 7. Answer Key with Explanations
-
-1. **Answer: Up to 35%**
-   - *Explanation*: Directly stated in text: "...cuts factory downtime by up to 35%."
-
-2. **Answer: Sensor data**
-   - *Explanation*: Text states: "By analyzing sensor data in real-time..."
-
-3. **Answer: Component failure (or downtime)**
-   - *Explanation*: "Component failure" refers directly to breakdown.
-
-4. **Answer: High initial capital expenditure and shortage of skilled data technicians.**
-   - *Explanation*: Explicitly listed as the two main barriers in the final sentence.
-
-5. **Answer: Shift from reactive repairs to predictive maintenance.**
-   - *Explanation*: Directly stated as "This transition from reactive repairs to predictive maintenance..."
-
-6. **Answer: Informative and Objective / Analytical**
-   - *Explanation*: The author presents factual data, benefits, and challenges without emotional bias.
-
-7. **Answer: b) The financial cost and technical skill barrier outweigh immediate benefits for small enterprises.**
-   - *Explanation*: The passage highlights the struggle of small enterprises despite 35% downtime savings, implying the upfront barriers are currently restrictive.
-
-8. **Answer: b) Predictive Maintenance: Advantages and Adoption Hurdles**
-   - *Explanation*: Summarizes both main themes of the text (benefits of downtime reduction + adoption challenges for small firms).
-
-
----
-
-## 8. Quick Revision
+## Shortcut: The Passage-First Keyword Scanning Technique
 
 > [!TIP]
-> ### 🚀 Reading Comprehension Cheat-Sheet
-> - **Question-First Strategy**: Read question stems first to pre-program keyword targets.
-> - **Paragraph Anchors**: 80% of core ideas reside in the 1st and last sentences of each paragraph.
-> - **Tone Filter**: Classify tone as Positive (+), Negative (-), or Neutral (0).
-> - **Extreme Word Trap**: Options with *always, never, completely, impossible, all* are wrong 90% of the time.
-> - **Inference Rule**: Infer strictly from facts inside the text—do NOT bring outside knowledge.
+> ### Question-Stem First Keyword Scan
+> Read the **question stems first** before reading the passage. Underline 1–2 specific key terms (e.g. "quantum computing", "1995 regulation", "cost inflation") and scan the text directly for those visual anchors.
+> 
+> *Why it works*: Prevents reading the entire passage aimlessly twice. You read with target intention, extracting facts 50% faster.
 
 ---
 
-## 9. Connection to Next Topic
-Now that you can skim passages and extract main themes, learn how to reorder jumbled sentences using transition words and mandatory pairs. Continue to **[Para Jumbles](para-jumbles.md)**!
+## Worked Examples
+
+### Sample Passage
+> *Artificial Intelligence systems are transforming logistics by predicting demand spikes and optimizing delivery routes. However, autonomous delivery fleets face regulatory hurdles regarding public safety and liability in urban areas. Industry experts argue that clear legal frameworks must precede widespread commercial adoption.*
+
+### Example 1: Main Idea Question (Easy)
+- **Question**: What is the primary focus of the passage?
+- **Step-by-step Solution**:
+  1. Scan sentence 1: AI transforming logistics.
+  2. Scan sentence 2 & 3: Regulatory hurdles and need for legal frameworks.
+  3. **Answer**: The potential of AI in logistics alongside the necessity of regulatory frameworks for autonomous fleets.
+
+### Example 2: Inference Question (Medium)
+- **Question**: What can be inferred about widespread commercial adoption of autonomous delivery fleets?
+- **Step-by-step Solution**:
+  1. Locate "widespread commercial adoption" in text.
+  2. Sentence 3 states: "...clear legal frameworks must precede widespread commercial adoption."
+  3. **Inference**: Adoption will be delayed or restricted until legal frameworks are established.
+
+---
+
+## Practice Questions (PYQ Bank)
+
+**Passage for Q1–Q5:**
+> *Solar photovoltaics have experienced dramatic cost reductions over the past decade, making solar power competitive with conventional fossil fuel generation in many regions. Despite this progress, grid integration remains a challenge due to the intermittent nature of sunlight. Battery energy storage systems (BESS) are critical to buffer supply fluctuations and ensure grid stability.*
+
+Q1. According to the passage, what has driven solar power's competitiveness with fossil fuels?  
+a) Government subsidies  
+b) Dramatic cost reductions in solar photovoltaics  
+c) Increased sunlight hours  
+d) Scarcity of coal  
+
+Q2. What is identified as the primary challenge to solar grid integration?  
+a) High cost of solar panels  
+b) Intermittent nature of sunlight  
+c) Lack of land  
+d) Cable maintenance  
+
+Q3. What role do Battery Energy Storage Systems (BESS) play?  
+a) They generate extra electricity from heat  
+b) They buffer supply fluctuations and ensure grid stability  
+c) They replace solar panels entirely  
+d) They reduce battery recycling costs  
+
+Q4. The word **"intermittent"** in the passage most nearly means:  
+a) Constant and steady  
+b) Occurring at irregular intervals / sporadic  
+c) Extremely bright  
+d) Continuous  
+
+Q5. Which statement is directly supported by the passage?  
+a) Solar power is now cheaper than fossil fuels in every region worldwide.  
+b) Solar energy adoption requires battery storage to manage supply variability.  
+c) Battery costs have fallen faster than solar panel costs.  
+d) Fossil fuels will be phased out by 2030.  
+
+Q6. Why is bringing outside personal knowledge dangerous in RC inference questions?  
+a) Options based on true real-world facts may be unmentioned in the passage and thus incorrect  
+b) It violates copyright  
+c) Outside facts make answers longer  
+d) Real-world facts are always false  
+
+Q7. In RC, what does a "Tone" question evaluate?  
+a) The author's attitude or emotional stance towards the subject matter (e.g. objective, critical, optimistic)  
+b) The font size  
+c) The volume of audio  
+d) The passage length  
+
+Q8. What should you do when two options seem equally plausible in an inference question?  
+a) Pick the option that is strictly supported by textual evidence without extra assumptions  
+b) Flip a coin  
+c) Choose the longer option  
+d) Select the option with bigger words  
+
+Q9. What does "Vocabulary in Context" test?  
+a) The specific contextual meaning of a word as used in the passage, not just its general dictionary definition  
+b) Spelling accuracy  
+c) Pronunciation  
+d) History of words  
+
+Q10. True or False: You should read every single word of a 500-word passage before looking at the questions.  
+a) True  
+b) False (Scanning question stems first provides target focus)  
+
+Q11. Which signal word indicates an author is about to present a counter-argument?  
+a) Furthermore  
+b) However / Nevertheless  
+c) In addition  
+d) Similarly  
+
+Q12. What does an "objective" tone mean?  
+a) Neutral, factual, and unbiased presentation without emotional bias  
+b) Angry and aggressive  
+c) Highly humorous  
+d) Sarcastic  
+
+Q13. If a passage states "Company A launched product X in 2020", can we infer "Company A was founded in 2020"?  
+a) Yes  
+b) No (launching a product does not state when the company was founded)  
+
+Q14. What is the recommended time limit per RC passage (including 3 questions) in Accenture tests?  
+a) 2–3 minutes  
+b) 10 minutes  
+c) 15 minutes  
+d) 30 seconds  
+
+Q15. Why are extreme words like "always", "never", "completely", "every" often red flags in RC option choices?  
+a) Authors rarely make absolute statements without qualification; extreme options are often traps  
+b) They are grammatically incorrect  
+c) They take up space  
+d) They are informal  
+
+---
+
+## Answers
+
+1. **b) Dramatic cost reductions in solar photovoltaics** — Direct textual statement.
+2. **b) Intermittent nature of sunlight** — Stated in sentence 2.
+3. **b) They buffer supply fluctuations and ensure grid stability** — Stated in sentence 3.
+4. **b) Occurring at irregular intervals / sporadic** — Contextual vocabulary definition.
+5. **b) Solar energy adoption requires battery storage...** — Supported by sentence 2 and 3.
+6. **a) Options based on true real-world facts may be unmentioned...** — RC strict passage boundary rule.
+7. **a) The author's attitude or emotional stance...** — Definition of tone.
+8. **a) Pick the option that is strictly supported by textual evidence...** — Elimination rule.
+9. **a) The specific contextual meaning of a word as used in the passage...** — Context rule.
+10. **b) False** — Stem scanning first saves time.
+11. **b) However / Nevertheless** — Contrast transition marker.
+12. **a) Neutral, factual, and unbiased presentation...** — Tone definition.
+13. **b) No** — Over-extending inference beyond text is an error.
+14. **a) 2–3 minutes** — High-speed test budget.
+15. **a) Authors rarely make absolute statements without qualification...** — Elimination red flag rule.
+
+---
+
+## Where this appears in the real Accenture test
+Appears in Stage 1 & Stage 2: Verbal Ability section.
+
+---
+
+## Recommended videos
+- [PrepInsta Verbal Preparation Hub](https://prepinsta.com/accenture/cognitive/) — Reading comprehension PYQ notes.

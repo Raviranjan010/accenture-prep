@@ -1,181 +1,187 @@
-# Ratios & Averages — Complete Study Guide
+# Quantitative Aptitude: Ratios, Proportions & Averages
 
-## 1. Definition
-- **Ratio**: A quantitative relationship expressing how many times one number contains another ($A:B$).
-- **Proportion**: An equality between two ratios ($A:B = C:D$).
-- **Average (Arithmetic Mean)**: A single central value that represents the equal distribution of a sum across all items in a set.
-- **Weighted Average**: An average where different components contribute unequally based on their respective weights or quantities.
-- **Alligation / Mixture**: A graphical rule to find the ratio in which two or more ingredients at given prices/concentrations must be mixed to produce a mixture at a desired price/concentration.
+## What this is
+Ratios compare relative magnitudes between two or more quantities of the same units, while averages compute the single central representative value of a numerical distribution. In Accenture assessments, ratios and weighted averages appear frequently in mixture problems, age comparisons, and company performance statistics.
 
 ---
 
-## 2. Core Formula(s) / Rules
+## Formula / Rule / Pattern
 
-1. **Simple Average**: $\text{Average} = \frac{\text{Sum of all terms}}{\text{Number of terms } (N)}$
-   - *Why it works*: Distributes the total sum evenly across all $N$ elements.
-2. **Sum from Average**: $\text{Sum} = \text{Average} \times N$
-   - *Why it works*: Reorganizes the basic average formula by isolating total sum.
-3. **Weighted Average**: $A_{\text{weighted}} = \frac{n_1 a_1 + n_2 a_2}{n_1 + n_2}$
-   - *Why it works*: Accounts for unequal group sizes $n_1$ and $n_2$ with respective group averages $a_1$ and $a_2$.
-4. **Ratio Combination ($A:B$ and $B:C$)**:
-   - Given $A:B = x:y$ and $B:C = m:n$, scale to make $B$ equal: $A:B:C = (x \times m) : (y \times m) : (y \times n)$.
-   - *Why it works*: Aligns the common element $B$ to a common multiple baseline.
-5. **Rule of Alligation**:
-   $$\frac{\text{Cheaper Quantity}}{\text{Dearer Quantity}} = \frac{\text{Dearer Rate} - \text{Mean Rate}}{\text{Mean Rate} - \text{Cheaper Rate}}$$
-   - *Why it works*: Derived directly from the weighted average formula solved for the ratio of quantities.
+| Concept | Mathematical Formula | Usage Context |
+| :--- | :--- | :--- |
+| **Ratio Division** | Share of $A = \left(\frac{a}{a+b}\right) \times \text{Total}$ | Dividing total quantity in ratio $a:b$ |
+| **Simple Average** | $\text{Average} = \frac{\sum x}{N}$ | Sum of items divided by count |
+| **Weighted Average** | $\text{Weighted Avg} = \frac{n_1 A_1 + n_2 A_2}{n_1 + n_2}$ | Combining groups of different sizes |
+| **Mixture Rule (Alligation)** | $\frac{\text{Cheaper Quantity}}{\text{Dearer Quantity}} = \frac{d - m}{m - c}$ | Finding mixing ratio of two prices |
 
 ---
 
-## 3. Tricks & Shortcuts
+## Shortcuts & Tricks
 
-### Shortcut 1: Deviation Method for Fast Averages
-- **Concept**: Pick an assumed mean $A_0$, compute deviations $(x_i - A_0)$, sum them, and adjust.
-- **Long Method**:
-  - Numbers: 88, 92, 95, 84, 91.
-  - Sum = $88 + 92 + 95 + 84 + 91 = 450$. Average = $450 / 5 = 90$. (Takes 25 seconds for addition)
-- **Shortcut Method**:
-  - Assume mean $A_0 = 90$. Deviations: $-2, +2, +5, -6, +1$.
-  - Sum of deviations = $0$. Average $= 90 + (0 / 5) = 90$. (5 seconds calculation)
-
-### Shortcut 2: Quick Ratio Combination $A:B$ and $B:C$ to $A:B:C$
-- **Pattern**:
-  - $A : B = 2 : 3$
-  - $B : C = 4 : 5$
-  - Multiply columns: $A = 2 \times 4 = 8$, $B = 3 \times 4 = 12$, $C = 3 \times 5 = 15 \implies 8 : 12 : 15$.
-- **Time saved**: Avoids setting up equations, reduces solving time from 30 seconds to 3 seconds.
-
-### Shortcut 3: Alligation Cross Diagram for Mixtures
-- **Rule**:
-  ```
-  Cheaper Price (C)      Dearer Price (D)
-                \         /
-                 Mean (M)
-                /         \
-          (D - M)   :   (M - C)
-  ```
-- **Long Method**: Set up algebraic equation $C x + D y = M (x + y)$ and isolate $x / y$.
-- **Shortcut Method**: Subtract diagonally to get the ratio of quantities directly in 5 seconds.
-
----
-
-## 4. Worked Examples
-
-### Example 1 (Easy): Basic Ratio Division
-**Question**: Divide ₹1,200 among A, B, and C in the ratio $2 : 3 : 5$. How much does each person receive?
-- **Step 1**: Calculate total ratio parts = $2 + 3 + 5 = 10$ parts.
-- **Step 2**: Value of 1 part = $\frac{1200}{10} = ₹120$.
-- **Step 3**: Multiply each share by part value:
-  - A's share = $2 \times 120 = ₹240$.
-  - B's share = $3 \times 120 = ₹360$.
-  - C's share = $5 \times 120 = ₹600$.
-
-### Example 2 (Medium): Replacement in Average (In/Out Member)
-**Question**: The average weight of a class of 24 students is 45 kg. If the teacher's weight is included, the average weight increases by 1 kg. What is the teacher's weight?
-- **Step 1**: Initial total weight of 24 students = $24 \times 45 = 1080$ kg.
-- **Step 2**: New group size = $24 + 1 = 25$ people.
-- **Step 3**: New average weight = $45 + 1 = 46$ kg.
-- **Step 4**: New total weight = $25 \times 46 = 1150$ kg.
-- **Step 5**: Teacher's weight = $1150 - 1080 = 70$ kg.
-  *(Shortcut: Teacher's weight = $\text{Old Avg} + \text{New Count} \times \text{Increase} = 45 + 25 \times 1 = 70$ kg).*
-
-### Example 3 (Hard): Mixture Alligation with Cost Prices
-**Question**: In what ratio must tea worth ₹60 per kg be mixed with tea worth ₹75 per kg so that the mixture is worth ₹65 per kg? If 30 kg of the cheaper tea is used, how much of the dearer tea is required?
-- **Step 1**: Identify Cheaper price ($C = 60$), Dearer price ($D = 75$), Mean price ($M = 65$).
-- **Step 2**: Apply Alligation Rule:
-  - Ratio of Cheaper : Dearer = $(D - M) : (M - C) = (75 - 65) : (65 - 60) = 10 : 5 = 2 : 1$.
-- **Step 3**: Solve for quantity: $\frac{\text{Cheaper Quantity}}{\text{Dearer Quantity}} = \frac{2}{1}$.
-- **Step 4**: Given Cheaper Quantity = 30 kg $\implies \frac{30}{\text{Dearer Quantity}} = \frac{2}{1} \implies \text{Dearer Quantity} = 15$ kg.
-
----
-
-## 5. Common Mistakes
-
-1. **Adding Averages Directly**:
-   - *Why it happens*: Assuming the combined average of Class A (avg 80%) and Class B (avg 90%) is 85%, ignoring class sizes. Combined average MUST be calculated using weighted sums unless class sizes are identical.
-2. **Reversing Ratio Terms**:
-   - *Why it happens*: Writing $B:A$ when asked for $A:B$. Always check which label corresponds to the numerator/first term.
-3. **Misapplying Alligation Subtractors**:
-   - *Why it happens*: Subtracting in the wrong direction ($M - D$ instead of $D - M$) resulting in negative numbers. Always subtract the smaller value from the larger value.
-
----
-
-## 6. Practice Questions
-
-1. **(Easy)** The ratio of two numbers is $4 : 5$ and their sum is 135. Find the larger number.
-2. **(Easy)** The average of 5 consecutive odd numbers is 27. What is the smallest number?
-3. **(Easy)** If $A : B = 3 : 4$ and $B : C = 8 : 9$, find $A : C$.
-4. **(Medium)** The average age of a family of 4 members is 28 years. If the youngest member is 6 years old, what was the average age of the family at the time of birth of the youngest member?
-5. **(Medium)** Two numbers are in the ratio $3 : 5$. If 9 is subtracted from each number, the new ratio becomes $12 : 23$. Find the smaller number.
-6. **(Medium)** A vessel contains milk and water in the ratio $7 : 3$. How much mixture must be drawn off and replaced with water so that the mixture contains milk and water in equal proportions ($1 : 1$)?
-7. **(Hard)** The average marks of students in section A is 65 and section B is 70. If the combined average of both sections is 67, find the ratio of the number of students in section A to section B.
-8. **(Hard)** A container has 40 liters of pure milk. 4 liters of milk are removed and replaced with water. This process is repeated one more time. Find the final quantity of pure milk remaining in the container.
-
----
-
-## 7. Answer Key with Explanations
-
-1. **Answer: 75**
-   - *Explanation*: Total parts = $4 + 5 = 9$.
-   - Value per part = $135 / 9 = 15$.
-   - Larger number = $5 \times 15 = 75$.
-
-2. **Answer: 23**
-   - *Explanation*: For consecutive odd numbers, the average is exact middle term (3rd term).
-   - 3rd term = 27.
-   - Numbers are: 23, 25, 27, 29, 31.
-   - Smallest number = 23.
-
-3. **Answer: 2 : 3**
-   - *Explanation*: Multiply ratios: $\frac{A}{B} \times \frac{B}{C} = \frac{3}{4} \times \frac{8}{9} = \frac{24}{36} = \frac{2}{3}$.
-   - Thus $A : C = 2 : 3$.
-
-4. **Answer: 29.33 years (or 22 years for remaining 3 members)**
-   - *Explanation*: Present total age of 4 members $= 4 \times 28 = 112$ years.
-   - 6 years ago, each of the 4 members was 6 years younger.
-   - Total age 6 years ago $= 112 - (4 \times 6) = 112 - 24 = 88$ years.
-   - Average age of family (3 existing members at that moment) $= \frac{88}{3} = 29.33$ years.
-
-5. **Answer: 33**
-   - *Explanation*: Let numbers be $3x$ and $5x$.
-   - $\frac{3x - 9}{5x - 9} = \frac{12}{23}$.
-   - Cross-multiply: $23(3x - 9) = 12(5x - 9) \implies 69x - 207 = 60x - 108$.
-   - $9x = 99 \implies x = 11$.
-   - Smaller number $= 3x = 3 \times 11 = 33$.
-
-6. **Answer: 2/7 of the mixture**
-   - *Explanation*: Initial ratio Milk : Water $= 7 : 3$ (Milk fraction $= 7/10$).
-   - Final ratio $= 1 : 1$ (Milk fraction $= 1/2$). Replaced by pure water (Milk fraction $= 0$).
-   - Alligation on Milk fraction:
-     - Initial ($7/10$) vs Water added ($0$), Mean ($1/2$).
-     - $(1/2 - 0) : (7/10 - 1/2) = 1/2 : 2/10 = 5/10 : 2/10 = 5 : 2$.
-   - Ratio of Remaining original mixture : Added water $= 5 : 2$.
-   - Fraction drawn off and replaced $= \frac{2}{5 + 2} = \frac{2}{7}$.
-
-7. **Answer: 3 : 2**
-   - *Explanation*: By Alligation rule:
-     - Section A avg = 65, Section B avg = 70, Mean avg = 67.
-     - Ratio $N_A : N_B = (70 - 67) : (67 - 65) = 3 : 2$.
-
-8. **Answer: 32.4 liters**
-   - *Explanation*: Formula for repeated replacement: $Q_{\text{final}} = Q_{\text{initial}} \left(1 - \frac{x}{V}\right)^n$.
-   - $Q_{\text{initial}} = 40$, $x = 4$, $V = 40$, $n = 2$.
-   - $Q_{\text{final}} = 40 \left(1 - \frac{4}{40}\right)^2 = 40 \left(\frac{9}{10}\right)^2 = 40 \times \frac{81}{100} = 32.4$ liters.
-
-
----
-
-## 8. Quick Revision
-
+### Shortcut 1: The Weighted Average Shift Trick
 > [!TIP]
-> ### 🚀 Ratios & Averages Cheat-Sheet
-> - **Average**: $\text{Sum of items} / N$.
-> - **Weighted Average**: $(n_1 a_1 + n_2 a_2) / (n_1 + n_2)$.
-> - **Deviation Method**: $\text{Assumed Mean } A_0 + (\sum \text{Deviations} / N)$.
-> - **Ratio Combining ($A:B$ & $B:C$)**: Scale $B$ to a common multiple baseline.
-> - **Rule of Alligation**: $\text{Cheaper Qty} / \text{Dearer Qty} = (D - M) / (M - C)$.
-> - **Repeated Replacement**: $Q_{\text{final}} = Q_{\text{initial}} \left(1 - \frac{x}{V}\right)^n$.
+> When adding a new item $X$ to a group of size $N$ with existing average $A$:
+> 
+> $$\text{New Average} = A + \frac{X - A}{N + 1}$$
+> 
+> *Why it works*: Evaluates only the deviation of the incoming value $(X - A)$ distributed across the updated total count $(N + 1)$, eliminating the need to re-multiply large sums.
+
+### Shortcut 2: Ratio Equalization Matrix
+> [!TIP]
+> If $A:B = a:b$ and $B:C = c:d$, combine into $A:B:C$ by multiplying the first ratio by $c$ and the second by $b$:
+> 
+> $$A:B:C = (a \times c) : (b \times c) : (b \times d)$$
+> 
+> *Why it works*: Equalizes the common term $B$ to a single common denominator value $(b \times c)$.
 
 ---
 
-## 9. Connection to Next Topic
-With ratios and weighted averages mastered, apply these proportional reasoning techniques to solve speed, time, and distance problems. Continue to **[Time, Speed & Distance](time-speed-distance.md)**!
+## Worked Examples
+
+### Example 1: Combining Ratios (Easy)
+- **Question**: Given $A:B = 2:3$ and $B:C = 4:5$. Find $A:B:C$.
+- **Step-by-step Solution**:
+  1. Equalize $B$: Common multiple of 3 and 4 is 12.
+  2. Multiply $A:B$ by 4 $\implies 8:12$.
+  3. Multiply $B:C$ by 3 $\implies 12:15$.
+  4. **Combine**: $A:B:C = 8:12:15$.
+
+### Example 2: Excluded Average Deviation (Medium)
+- **Question**: The average age of 24 students and 1 teacher is 15 years. If the teacher's age is excluded, the average decreases by 1 year. Find the teacher's age.
+- **Step-by-step Solution**:
+  1. Total group count $= 25$. Original Average $= 15$.
+  2. Excluded average for 24 students $= 14$.
+  3. Teacher's age $= \text{Original Sum} - \text{Students Sum} = (25 \times 15) - (24 \times 14) = 375 - 336 = 39 \text{ years}$.
+  4. *Shortcut*: Teacher $= 15 + (24 \times 1) = 39$ years.
+
+### Example 3: Alligation Mixture Ratio (Hard)
+- **Question**: In what ratio must rice at ₹40/kg be mixed with rice at ₹60/kg so that the mixture is worth ₹52/kg?
+- **Step-by-step Solution**:
+  1. Cheaper price ($c$) $= 40$, Dearer price ($d$) $= 60$, Mean price ($m$) $= 52$.
+  2. $d - m = 60 - 52 = 8$.
+  3. $m - c = 52 - 40 = 12$.
+  4. Ratio of Cheaper : Dearer $= 8:12 = 2:3$.
+
+---
+
+## Practice Questions (PYQ Bank)
+
+Q1. Divide ₹700 among A, B, and C in the ratio 2:3:5. What is C's share?  
+a) ₹140  
+b) ₹210  
+c) ₹350  
+d) ₹400  
+
+Q2. Average of 10 numbers is 15. If each number is multiplied by 3, what is the new average?  
+a) 15  
+b) 30  
+c) 45  
+d) 50  
+
+Q3. Ratio of ages of A and B is 4:5. After 5 years, the ratio becomes 5:6. Find A's present age.  
+a) 20 years  
+b) 25 years  
+c) 15 years  
+d) 30 years  
+
+Q4. Average mark of 40 students is 68. Later it was found that a score of 45 was misread as 85. What is the correct average?  
+a) 67  
+b) 69  
+c) 66.5  
+d) 67.5  
+
+Q5. A mixture of 60 liters contains milk and water in the ratio 2:1. How much water must be added to make ratio 1:2?  
+a) 40 liters  
+b) 60 liters  
+c) 20 liters  
+d) 30 liters  
+
+Q6. If $A:B = 3:5$ and $B:C = 6:7$, what is $A:C$?  
+a) 18:35  
+b) 9:14  
+c) 3:7  
+d) 12:35  
+
+Q7. The mean of 5 numbers is 20. If a number 40 is added, what is the new mean?  
+a) 22  
+b) 23.33  
+c) 25  
+d) 24  
+
+Q8. A batsman scores 80 runs in his 17th inning, increasing his average by 3 runs. Find his average after 17th inning.  
+a) 29  
+b) 32  
+c) 35  
+d) 26  
+
+Q9. In a class of 50 students, 30 are boys with average weight 60 kg, and 20 are girls with average weight 50 kg. Find class average weight.  
+a) 54 kg  
+b) 55 kg  
+c) 56 kg  
+d) 57 kg  
+
+Q10. Two numbers are in the ratio 3:4. If their LCM is 180, find the smaller number.  
+a) 45  
+b) 60  
+c) 30  
+d) 15  
+
+Q11. Average temperature for Mon, Tue, Wed is 37°C. For Tue, Wed, Thu is 34°C. If Thursday's temp is 4/5 of Monday's, find Thursday's temp.  
+a) 36°C  
+b) 38°C  
+c) 40°C  
+d) 34°C  
+
+Q12. What is the fourth proportional to 4, 9, 12?  
+a) 27  
+b) 36  
+c) 18  
+d) 24  
+
+Q13. In a bag, coins of 50p, 25p, and 10p are in the ratio 5:9:4 amounting to ₹206. Find total number of coins.  
+a) 360  
+b) 720  
+c) 540  
+d) 800  
+
+Q14. Average age of a family of 5 members is 24 years. If age of youngest member is 8 years, find average age of family at birth of youngest member.  
+a) 16 years  
+b) 20 years  
+c) 18 years  
+d) 22 years  
+
+Q15. Why does multiplying every element in a dataset by constant $k$ multiply the mean by $k$?  
+a) Mean is a linear operator: $\frac{\sum k x_i}{N} = k \left(\frac{\sum x_i}{N}\right)$  
+b) It only works for even numbers  
+c) Ratio scales double  
+d) It changes count $N$  
+
+---
+
+## Answers
+
+1. **c) ₹350** — $C$'s share $= 5/10 \times 700 = ₹350$.
+2. **c) 45** — Multiplying all values by 3 multiplies average by 3 ($15 \times 3 = 45$).
+3. **a) 20 years** — Let ages be $4x, 5x$. $(4x+5)/(5x+5) = 5/6 \implies 24x+30 = 25x+25 \implies x=5$. A's age $= 4(5) = 20$.
+4. **a) 67** — Error $= 85 - 45 = +40$. Correct sum $= \text{Old Sum} - 40$. Correct average $= 68 - 40/40 = 68 - 1 = 67$.
+5. **b) 60 liters** — Initial: Milk $= 40$, Water $= 20$. Desired ratio $40/(20+W) = 1/2 \implies 80 = 20 + W \implies W = 60$.
+6. **a) 18:35** — $A/C = (3/5) \times (6/7) = 18/35$.
+7. **c) 23.33** — New mean $= 20 + (40 - 20)/6 = 20 + 20/6 = 23.33$.
+8. **b) 32** — Let old avg $= A$. $16A + 80 = 17(A+3) \implies 16A + 80 = 17A + 51 \implies A = 29$. New avg $= 29 + 3 = 32$.
+9. **c) 56 kg** — $\frac{30(60) + 20(50)}{50} = \frac{1800 + 1000}{50} = \frac{2800}{50} = 56$ kg.
+10. **a) 45** — Let numbers be $3x, 4x$. $\text{LCM} = 12x = 180 \implies x = 15$. Smaller number $= 3(15) = 45$.
+11. **a) 36°C** — Mon - Thu $= 3 \times (37 - 34) = 9^\circ$. Mon - $(4/5)\text{Mon} = 9 \implies \text{Mon}/5 = 9 \implies \text{Mon} = 45^\circ$. Thu $= 45 - 9 = 36^\circ$.
+12. **a) 27** — $4/9 = 12/x \implies 4x = 108 \implies x = 27$.
+13. **b) 720** — Total value $= 5x(0.50) + 9x(0.25) + 4x(0.10) = 2.5x + 2.25x + 0.4x = 5.15x = 206 \implies x = 40$. Total coins $= 18x = 18 \times 40 = 720$.
+14. **b) 20 years** — Total age now $= 5 \times 24 = 120$. 8 years ago, sum $= 120 - (5 \times 8) = 80$. Remaining members $= 4$. Avg at birth $= 80/4 = 20$ years.
+15. **a) Mean is a linear operator...** — Distributive property of summation over constant scalar multiplication.
+
+---
+
+## Where this appears in the real Accenture test
+Appears in Stage 1 & Stage 2: Quantitative Aptitude MCQ section.
+
+---
+
+## Recommended videos
+- [PrepInsta Quantitative Syllabus Hub](https://prepinsta.com/accenture/cognitive/) — Ratios and Averages question bank.
