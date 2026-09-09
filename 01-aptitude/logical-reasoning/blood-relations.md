@@ -1,198 +1,184 @@
-# Blood Relations — Complete Study Guide
+# Logical Reasoning: Blood Relations
 
-## 1. Definition
-**Blood Relations** problems test your ability to trace familial relationships across multiple generations from statements, family descriptions, or coded symbols.
-- **Generation Levels**: Vertical layout where grandparents are Gen +2, parents/uncles/aunts are Gen +1, self/siblings/cousins are Gen 0, children are Gen -1.
-- **Gender Notations**: Standardized symbols used in family trees (e.g., Square `[ ]` or Plus `(+)` for Male, Circle `( )` or Minus `(-)` for Female).
-- **Relationships**:
-  - Father's/Mother's Brother = Uncle (Patrilineal / Matrilineal).
-  - Father's/Mother's Sister = Aunt.
-  - Uncle's/Aunt's child = Cousin (regardless of gender).
-  - Sister's/Brother's Son = Nephew.
-  - Sister's/Brother's Daughter = Niece.
+## What this is
+Blood Relations questions test your capacity to deduce interpersonal family relationships from a set of descriptive statements, coded symbols, or indirect dialogue clues. In Accenture logical reasoning assessments, multi-generation family trees and coded relation chains are tested.
 
 ---
 
-## 2. Core Formula(s) / Rules
+## Formula / Rule / Pattern
 
-1. **Family Tree Diagram Rules**:
-   - Male: `[ Name ]` or `Name(+)`
-   - Female: `( Name )` or `Name(-)`
-   - Married Couple: Double horizontal line `[ Husband ] = ( Wife )`
-   - Siblings: Single horizontal line `[ Brother ] — ( Sister )`
-   - Parent-Child: Vertical line down `[ Father ] | [ Son ]`
-2. **Generation Gap Value (G-Gap)**:
-   - Parent/Uncle/Aunt $= +1$
-   - Self/Sibling/Spouse/Cousin $= 0$
-   - Child/Nephew/Niece $= -1$
-   - Grandparent $= +2$, Grandchild $= -2$
-   - *Why it works*: Algebraic summing of generation gaps isolates correct relationship types instantly.
-3. **Gender Identity Rule**:
-   - Never assume gender from a person's name (e.g., 'Kiran', 'Deepak', 'Bobby' can be male or female in questions). Gender MUST be explicitly established by pronouns or relation terms ('father', 'sister').
+| Generation Level | Relatives Included | Visual Tree Convention |
+| :--- | :--- | :--- |
+| **$+2$ (Grandparents)** | Grandfather, Grandmother | Top level |
+| **$+1$ (Parents / Uncles)** | Father, Mother, Uncle, Aunt | Upper level |
+| **$0$ (Same Generation)** | Self, Brother, Sister, Cousin, Spouse | Middle level |
+| **$-1$ (Children)** | Son, Daughter, Nephew, Niece | Lower level |
+| **$-2$ (Grandchildren)** | Grandson, Granddaughter | Bottom level |
 
----
-
-## 3. Tricks & Shortcuts
-
-### Shortcut 1: Self-Substitution Method (Narrative Quotes)
-- **Concept**: For "Pointing to a photograph..." questions, break down the sentence starting from "my/his/her" and substitute yourself in the statement.
-- **Long Method**: Draw complex diagrams with hypothetical variables. Takes 45 seconds.
-- **Shortcut Method**:
-  - Quote: *"He is the only son of the mother of my father's sister."*
-  - Read from inside out:
-    1. "My father's sister" $\rightarrow$ My Aunt.
-    2. "Mother of my aunt" $\rightarrow$ My Grandmother.
-    3. "Only son of my grandmother" $\rightarrow$ My Father.
-  - Result: The person is **my father**. Done mentally in 5 seconds!
-
-### Shortcut 2: Generation Gap Filtering for Coded Relations
-- **Rule**: In coded questions ($A + B$ means A is father of B), assign generation gaps to options.
-- **Example**: If asked to find "P is nephew of Q", required gap between Q and P must be $-1$ (Q is 1 generation above P) and P MUST be male (+).
-- **Time Saved**: Eliminates 2 or 3 options immediately without drawing full trees for every option.
-
-### Shortcut 3: Gender Elimination Trick
-- **Rule**: If a question asks "How is A related to B?" and option requires A to be female, check the symbol following A in coded statements. If the symbol after A indicates male (e.g. $A \times B$ where $\times$ means 'father'), eliminate that option instantly!
+**Visual Notation Rules**:
+- Male: Square box `[ ]` or `(+)`
+- Female: Circle `( )` or `(-)`
+- Married Couple: Double horizontal line `=`
+- Siblings: Single horizontal line `-`
+- Parent-Child: Vertical line `|`
 
 ---
 
-## 4. Worked Examples
-
-### Example 1 (Easy): Direct Family Tree Trace
-**Question**: A is the brother of B. C is the mother of A. D is the father of C. E is the mother of D. How is A related to D?
-- **Step 1**: Identify relationships step by step:
-  - A(+) and B are siblings (Gen 0).
-  - C(-) is mother of A (and B) (Gen +1).
-  - D(+) is father of C (Gen +2).
-- **Step 2**: Check generation levels:
-  - A is at Gen 0, D is at Gen +2.
-  - D is grandfather of A.
-- **Step 3**: Determine direction: Question asks "How is A related to D?" $\rightarrow$ A is male (brother of B).
-- **Answer**: A is the **Grandson** of D.
-
-### Example 2 (Medium): Pointing to a Person
-**Question**: Pointing to a photograph of a boy, Suresh said, "He is the son of the only son of my mother." How is Suresh related to that boy?
-- **Step 1**: Identify the speaker: Suresh (Male).
-- **Step 2**: Decode "my mother" $\rightarrow$ Suresh's mother.
-- **Step 3**: Decode "only son of my mother" $\rightarrow$ Since Suresh is male, his mother's only son is **Suresh himself**.
-- **Step 4**: Decode "He is the son of [Suresh]" $\rightarrow$ The boy in the photograph is Suresh's son.
-- **Step 5**: Check question target: "How is Suresh related to that boy?"
-- **Answer**: Suresh is the boy's **Father**.
-
-### Example 3 (Hard): Coded Blood Relations
-**Question**: Given:
-- $P + Q$ means P is the sister of Q.
-- $P - Q$ means P is the mother of Q.
-- $P \times Q$ means P is the brother of Q.
-- $P \div Q$ means P is the father of Q.
-
-Which of the following represents "M is the maternal uncle of R"?
-1. $M \times N - R$
-2. $M + N \div R$
-3. $M \div N \times R$
-4. $M - N + R$
-
-- **Step 1**: Analyze required relationship: "M is maternal uncle of R".
-  - M must be male ($+$ gender).
-  - Maternal uncle means: M is brother of R's mother.
-  - Generation gap between M and R must be $+1$ (M is 1 generation above R).
-- **Step 2**: Test Option 1 ($M \times N - R$):
-  - $M \times N \implies$ M is brother of N (M is male).
-  - $N - R \implies$ N is mother of R.
-  - Combine: M is the brother of R's mother (N) $\implies$ M is the maternal uncle of R!
-- **Answer**: **Option 1 ($M \times N - R$)**.
-
----
-
-## 5. Common Mistakes
-
-1. **Assuming Gender from Names**:
-   - *Why it happens*: Thinking 'Deepak' is male or 'Priya' is female without explicit relationship text. Always mark gender as unknown until proven by a relationship keyword like 'mother' or 'brother'.
-2. **Reversing the Question Direction**:
-   - *Why it happens*: Answering 'Father' when the question asks how the son is related to the father (should be 'Son'). Always read carefully: "How is A related to B?" means "What is A to B?".
-3. **Confusing Maternal vs Patrilineal Uncles/Aunts**:
-   - *Why it happens*: Maternal = mother's side; Paternal = father's side. Check if options specify 'maternal uncle' vs 'paternal uncle'.
-
----
-
-## 6. Practice Questions
-
-1. **(Easy)** Pointing to a man, a woman said, "His mother is the only daughter of my mother." How is the woman related to the man?
-2. **(Easy)** A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?
-3. **(Easy)** If P is the brother of Q, R is the sister of Q, and S is the father of P, how is Q related to S?
-4. **(Medium)** Looking at a portrait, a man said, "I have no brother or sister, but that man's father is my father's son." Whose portrait was he looking at?
-5. **(Medium)** If $A + B$ means A is the brother of B; $A - B$ means A is the sister of B; and $A \times B$ means A is the father of B. Which of the following means C is the son of M?
-   - a) $M \times C$
-   - b) $C + N \times M$
-   - c) $N - C + M$
-   - d) $M \times C + N$
-6. **(Medium)** A family consists of six members P, Q, R, S, T, and U. There are two married couples. Q is a doctor and the father of T. U is grandfather of R and is a contractor. S is grandmother of T and is a housewife. There is one doctor, one contractor, one nurse, one housewife, and two students in the family. How is P related to T?
-7. **(Hard)** Read the statements:
-   - $X \star Y$ means X is mother of Y.
-   - $X \delta Y$ means X is father of Y.
-   - $X \Omega Y$ means X is husband of Y.
-   Which expression shows that "A is the paternal grandmother of D"?
-   - a) $A \star B \delta C \Omega D$
-   - b) $A \star B \delta D$
-   - c) $A \delta B \star D$
-   - d) $A \Omega B \star D$
-8. **(Hard)** A's mother is sister of B and daughter of C. D is the daughter of B and sister of E. How is C related to E?
-
----
-
-## 7. Answer Key with Explanations
-
-1. **Answer: Mother**
-   - *Explanation*: "Only daughter of my mother" $\rightarrow$ Woman herself.
-   - "His mother is [the woman herself]" $\rightarrow$ The woman is his mother.
-
-2. **Answer: Granddaughter**
-   - *Explanation*: A is female (sister of B). Mother of A is C. Father of C is D.
-   - A is the daughter's daughter (Granddaughter) of D.
-
-3. **Answer: Son or Daughter**
-   - *Explanation*: P, Q, R are children of father S. The gender of Q is not mentioned in the problem statement. Thus Q can be Son or Daughter of S.
-
-4. **Answer: His son's portrait**
-   - *Explanation*: "My father's son" $\rightarrow$ Speaker himself (since he has no brother or sister).
-   - "That man's father is [Speaker]" $\rightarrow$ The man in the portrait is the speaker's son.
-
-5. **Answer: d) $M \times C + N$**
-   - *Explanation*: $M \times C \implies$ M is father of C.
-   - $C + N \implies$ C is brother of N (so C is male).
-   - Combining both: C is the male child (son) of M.
-
-6. **Answer: Mother**
-   - *Explanation*:
-   - U(Grandfather) = S(Grandmother).
-   - Q(Father, Doctor) is married to P(Nurse, Mother).
-   - Children are T and R (Students).
-   - P is the mother of T.
-
-7. **Answer: b) $A \star B \delta D$**
-   - *Explanation*:
-   - $A \star B \implies$ A is mother of B (Female).
-   - $B \delta D \implies$ B is father of D (Male).
-   - Mother of father = Paternal grandmother.
-
-8. **Answer: Grandfather or Grandmother**
-   - *Explanation*:
-   - B and A's mother are siblings, children of C.
-   - D and E are children of B.
-   - C is the parent of B $\implies$ C is grandparent of B's child E. Gender of C is unspecified, so C is Grandfather or Grandmother.
-
-
----
-
-## 8. Quick Revision
+## Shortcut: The Genogram Family Tree Method
 
 > [!TIP]
-> ### 🚀 Blood Relations Cheat-Sheet
-> - **Notations**: Square/Plus $[+]$ = Male; Circle/Minus $(-)$ = Female; $=$ Married; $-$ Siblings; $\mid$ Parent-Child.
-> - **Generation Gaps**: Grandparent $= +2$, Parent/Uncle $= +1$, Self/Sibling $= 0$, Child $= -1$.
-> - **Self-Substitution**: Read quotes from "my/his/her" outwards to deduce relations mentally.
-> - **Rule**: Never assume gender from names; establish gender strictly via relationship terms or pronouns.
+> ### Genogram Mapping Trick
+> Draw a 3-generation family tree diagram **as you read** each clue line by line. Never try to hold 4-step relation chains in working memory.
+> 
+> *Why it works*: Visualizing gender symbols and vertical generation levels prevents working-memory collapse and eliminates ambiguity when interpreting "brother-in-law" (spouse's brother vs. sister's husband).
 
 ---
 
-## 9. Connection to Next Topic
-Now that you can trace family tree structures logically, build spatial orientation skills for linear and circular setups. Continue to **[Seating Arrangement](seating-arrangement.md)**!
+## Worked Examples
+
+### Example 1: Direct Statement (Easy)
+- **Question**: Pointing to a photograph of a man, Neha said, "His mother is the only daughter of my mother." How is Neha related to the man in the photograph?
+- **Step-by-step Solution**:
+  1. Break down from "my mother": "Only daughter of my mother" $\implies$ Neha herself.
+  2. Substitute back: "His mother is Neha."
+  3. **Relation**: Neha is the man's **Mother**.
+
+### Example 2: Coded Relations (Medium)
+- **Question**: Given $A + B$ means A is father of B; $A \times B$ means A is sister of B; $A - B$ means A is mother of B. Which expression means "P is maternal aunt of Q"?
+- **Step-by-step Solution**:
+  1. Maternal aunt means mother's sister.
+  2. Let mother of Q be M $\implies M - Q$.
+  3. P is sister of M $\implies P \times M$.
+  4. Combine: $P \times M - Q \implies$ **P is sister of mother of Q**.
+
+### Example 3: Multi-Member Family Tree (Hard)
+- **Question**: In a family of 6 (A, B, C, D, E, F), there are two married couples. B is a doctor and father of E. F is grandfather of A and a contractor. D is grandmother of E and a housewife. C is mother-in-law of B. How is A related to E?
+- **Step-by-step Solution**:
+  1. F (Grandfather) is married to D (Grandmother).
+  2. C is mother-in-law of B. B is father of E. So C is mother of B's wife.
+  3. Generations: Level +2: F(+) = D(-). Level +1: B(+) married to daughter of C. Level 0: A and E.
+  4. Since A and E are in Level 0 under same parents (B and his wife), A and E are **Siblings** (Brother or Sister).
+
+---
+
+## Practice Questions (PYQ Bank)
+
+Q1. A man said to a lady, "Your mother's husband's sister is my aunt." How is the lady related to the man?  
+a) Daughter  
+b) Sister  
+c) Mother  
+d) Aunt  
+
+Q2. Pointing to a man, a woman said, "He is the son of the only son of my grandfather." How is the man related to the woman?  
+a) Brother  
+b) Cousin  
+c) Father  
+d) Uncle  
+
+Q3. If $A + B$ means A is brother of B, $A - B$ means A is sister of B, $A \times B$ means A is father of B, what does $P \times Q - R$ mean?  
+a) P is father of R  
+b) P is uncle of R  
+c) P is brother of R  
+d) P is grandfather of R  
+
+Q4. Introducing a girl, Vipin said, "Her mother is the only daughter of my mother-in-law." How is Vipin related to the girl?  
+a) Uncle  
+b) Father  
+c) Brother  
+d) Husband  
+
+Q5. A is the father of B. C is the daughter of B. D is the brother of B. E is the son of A. What is the relationship between C and E?  
+a) Sister  
+b) Niece and Uncle  
+c) Cousins  
+d) Mother and Son  
+
+Q6. B is the husband of P. Q is the only grandson of E, who is wife of D and mother-in-law of P. How is B related to D?  
+a) Nephew  
+b) Son  
+c) Brother  
+d) Father  
+
+Q7. If $P \$ Q$ means P is father of Q, $P \# Q$ means P is mother of Q, $P * Q$ means P is sister of Q. Which code represents "N is maternal grandmother of M"?  
+a) $N \# K * M$  
+b) $N \# K \# M$  
+c) $N * K \# M$  
+d) $N \$ K \# M$  
+
+Q8. Looking at a portrait, a man said, "I have no brother or sister, but that man's father is my father's son." Whose portrait was it?  
+a) His own  
+b) His son's  
+c) His father's  
+d) His nephew's  
+
+Q9. In a family, X is the brother of Y. Y is the wife of Z. Z is the son of W. W is the wife of V. What is V to Y?  
+a) Father  
+b) Father-in-law  
+c) Brother-in-law  
+d) Uncle  
+
+Q10. Deepa said to Daya, "That boy playing cricket is the younger of the two brothers of the daughter of my father's wife." How is the boy related to Deepa?  
+a) Son  
+b) Brother  
+c) Cousin  
+d) Nephew  
+
+Q11. A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?  
+a) Grandfather  
+b) Granddaughter  
+c) Daughter  
+d) Grandmother  
+
+Q12. Q's mother is sister of P and daughter of M. S is daughter of P and sister of T. How is M related to T?  
+a) Grandmother  
+b) Grandfather or Grandmother  
+c) Mother  
+d) Aunt  
+
+Q13. If $M \div N$ means M is daughter of N, $M \times N$ means M is son of N, $M + N$ means M is brother of N. How is P related to Q in $P \div R + Q$?  
+a) Niece  
+b) Sister  
+c) Daughter  
+d) Aunt  
+
+Q14. A family has a man, his wife, their 4 sons and their wives. Each son has 3 sons and 1 daughter. Total male members in family:  
+a) 12  
+b) 17  
+c) 15  
+d) 10  
+
+Q15. Why is gender identification critical before marking blood relation answers?  
+a) Names in reasoning questions do not guarantee gender unless explicitly stated by relation terms  
+b) Gender determines age  
+c) Gender changes generation height  
+d) It reduces options to zero  
+
+---
+
+## Answers
+
+1. **b) Sister** — "Your mother's husband" $\implies$ father. "Father's sister" $\implies$ aunt. If her aunt is his aunt, she is his sister.
+2. **a) Brother** — "Only son of my grandfather" $\implies$ woman's father. "Son of my father" $\implies$ woman's brother.
+3. **a) P is father of R** — P is father of Q; Q is sister of R $\implies$ P is father of R.
+4. **b) Father** — "Mother-in-law's only daughter" $\implies$ Vipin's wife. "Her mother is Vipin's wife" $\implies$ Vipin is her father.
+5. **b) Niece and Uncle** — A is father of B and E. C is daughter of B. So E is uncle of C (C is niece).
+6. **b) Son** — E is wife of D (D is father-in-law of P). B is husband of P. So B is son of D.
+7. **b) $N \# K \# M$** — N is mother of K; K is mother of M $\implies$ N is maternal grandmother of M.
+8. **b) His son's** — "My father's son" (with no siblings) $= \text{himself}$. "That man's father is myself" $\implies$ his son.
+9. **b) Father-in-law** — Y is wife of Z. Z is son of W and V. So V is father-in-law of Y.
+10. **b) Brother** — "Father's wife" $\implies$ Deepa's mother. "Daughter of mother" $\implies$ Deepa/sister. "Brother of daughter" $\implies$ Deepa's brother.
+11. **b) Granddaughter** — A is sister of B (children of C). C is daughter of D. So A is granddaughter of D.
+12. **b) Grandfather or Grandmother** — M is parent of P (and grandparent of S, T). Gender of M is unspecified.
+13. **a) Niece** — P is daughter of R; R is brother of Q. Daughter of brother is niece.
+14. **b) 17** — 1 father $+ 4$ sons $+ (4 \times 3)$ grandsons $= 1 + 4 + 12 = 17$ males.
+15. **a) Names in reasoning questions do not guarantee gender...** — Crucial deduction rule.
+
+---
+
+## Where this appears in the real Accenture test
+Appears in Stage 1 & Stage 2: Logical Reasoning section.
+
+---
+
+## Recommended videos
+- [PrepInsta Logical Reasoning Guide](https://prepinsta.com/accenture/cognitive/) — Blood relations practice bank.
