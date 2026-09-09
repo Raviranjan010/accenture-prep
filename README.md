@@ -1,155 +1,150 @@
-# Accenture 2026 Placement Preparation Master Repository
+# Accenture 2026 Hiring Master Preparation Repository (ASE & Advanced ASE)
 
-> ⚠️ **2026 Pattern Changes Note**: Accenture's 2026 hiring process (ASE / Advanced ASE) has undergone major updates. The traditional Cognitive MCQ test has been replaced by **Gamified Assessment** (Memory Maze, Path Finder, Quick-Fire Math) on most drives. Additionally, the Technical Assessment now includes dedicated sub-sections for **Pseudocode**, **Cloud & Security**, and **MS Office / Common Applications**. This repository covers both the 2026 gamified format and legacy MCQ backups.
-> 
-> 🎯 **Master Coverage Checklist**: Track 100% syllabus completeness at **[COVERAGE-CHECKLIST.md](COVERAGE-CHECKLIST.md)**.
-> 
-> 📊 **Gap Analysis Report**: View repository audit details at **[AUDIT.md](AUDIT.md)**.
+Welcome to the comprehensive, self-contained, master-level preparation repository for the **Accenture 2026 Hiring Process** (Associate Software Engineer - ASE & Advanced Associate Software Engineer - AASE tracks, for both on-campus and off-campus recruitment drives).
 
 ---
-
-## ⚠️ Honest Disclaimer & Performance Note
-
-> [!CAUTION]
-> **No Guarantees**: This repository is a technical preparation aid and learning resource engineered to maximize your readiness for the Accenture hiring process. **No study material can guarantee a 100% test score or guaranteed job selection.**
-> 
-> Real test day performance depends on:
-> 1. Your individual practice volume, speed, and accuracy under strict time pressure.
-> 2. Test-day pattern variations (Accenture does not publish official cutoffs, and question distribution varies across campus/off-campus drives and dates).
-> 3. Spoken delivery, project depth, and personal interview presentation during panel rounds.
-
----
-
-## ⏱️ Section-Wise Time-Budget Cheat Sheet
-
-| Assessment Stage | Total Items / Questions | Total Time Allowed | Recommended Time Budget Per Question |
-| :--- | :---: | :---: | :--- |
-| **Stage 1: Gamified Assessment** | 3–4 Mini-Games | ~20 Mins Total | Memory Maze: 3s preview, <10s navigation. Path Finder: <15s per grid. Quick-Fire Math: <3s per bubble. |
-| **Stage 2: Technical Assessment** | ~40-50 MCQs / Traces | ~45 Mins Total | Aptitude/CS MCQs: 45–60 seconds max. Pseudocode Trace: 90 seconds (Trace table mandatory). |
-| **Stage 3: Coding Round** | 2 DSA Problems | ~45 Mins Total | Problem 1 (Easy): 15 mins. Problem 2 (Medium): 25 mins. Final testing: 5 mins. |
-| **Stage 4: Communication (Versant)**| ~63 Spoken Items | ~20 Mins Total | Reading: 10s. Repeat: 10s. Sentence Build: 10s. Short Answer: 3s. Story: 30s. Speech: 30s. |
-| **Stage 5: Technical & HR Interview** | Panel Interview | ~30-45 Mins | STAR format answers: 60–90 seconds per behavioral question. |
-
----
-
-## 📊 Section-Wise Scoring & Cutoff Note
 
 > [!IMPORTANT]
-> **Cutoff Disclaimer**: Accenture does **NOT** publish official cutoff scores. Cutoffs vary dynamically based on candidate pool performance, hiring track (ASE vs. Advanced ASE), and specific drive date.
-> 
-> **Reported Percentile Benchmarks (2026 Drives)**:
-> - **Stage 1 (Gamified)**: Aim for top 25% accuracy band with minimal collisions/errors.
-> - **Stage 2 (Technical & Pseudocode)**: Aim for $\ge 75\%-80\%$ score to clear overall cutoff.
-> - **Stage 3 (Coding Round)**: Solving **1 full problem clean** qualifies for ASE (4.5 LPA); solving **2/2 problems with optimal space-time complexity** qualifies for Advanced ASE (6.5 LPA) interview shortlisting.
-> - **Stage 4 (Communication)**: Threshold test (Pass/Fail). Must clear minimum AI fluency benchmark.
+> **Important Disclaimers & Exam Pattern Realities**
+> 1. **No Fixed Cutoff Percentage**: Accenture does not publish official cutoff percentages for any section or round. Cutoffs vary dynamically based on campus, batch size, and candidate pool performance. Aim for maximum accuracy across all sections.
+> 2. **No Selection Guarantee**: Completing this repository thoroughly equips you with all required concepts, shortcuts, PYQs, and strategies, but does not guarantee 100% selection or a specific test score. Selection depends on individual performance under exam conditions.
+> 3. **Source Attribution**: All practice items and questions are labeled as "commonly reported candidate patterns" derived from open placement feedback and archives, not official proprietary Accenture test items.
 
 ---
 
-## 🗓️ Day-by-Day Study Plans
+## 🚀 Quick Navigation & Master Resources
 
-### Option A: The 7-Day Sprint Plan (High-Speed Revision)
-
-| Day | Focus Area | Mandatory Files to Cover |
-| :---: | :--- | :--- |
-| **Day 1** | Stage 0 & Gamified Games | Read **[00-stage-0-eligibility-resume.md](00-stage-0-eligibility-resume.md)**. Master **[memory-maze.md](01-gamified-assessment/memory-maze.md)** & **[path-finder.md](01-gamified-assessment/path-finder.md)**. |
-| **Day 2** | Quick-Fire Math & Aptitude | Practice **[quick-fire-math.md](01-gamified-assessment/quick-fire-math.md)** & **[percentages-profit-loss.md](01-aptitude/quantitative/percentages-profit-loss.md)**. |
-| **Day 3** | Pseudocode Loop Tracing | Trace 20 problems in **[pseudocode-loop-recursion.md](02-technical-coding/pseudocode/pseudocode-loop-recursion.md)**. |
-| **Day 4** | CS, Cloud & MS Office | Study **[cloud-security-basics.md](02-technical-coding/cs-fundamentals/cloud-security-basics.md)** & **[ms-office-basics.md](02-technical-coding/cs-fundamentals/ms-office-basics.md)**. |
-| **Day 5** | Coding Round Sprint | Solve 10 problems in your core language (**[python-coding.md](02-technical-coding/coding-round/python-coding.md)** or **[java-coding.md](02-technical-coding/coding-round/java-coding.md)**). |
-| **Day 6** | Versant Communication | Drill all 6 Versant sections under **[03-communication/versant-drills/](03-communication/versant-drills/)**. |
-| **Day 7** | Timed Mock Test Day | Complete **[mock-test-1.md](05-mock-tests/mock-test-1.md)** & log scores in **[score-tracker.md](05-mock-tests/score-tracker.md)**. |
+- ⚡ **[CHEAT-SHEET.md](CHEAT-SHEET.md)** — One-page quick-scan reference card with core formulas, CS rules, and STAR frameworks for pre-exam review.
+- 🌐 **[ADDITIONAL-RESOURCES.md](ADDITIONAL-RESOURCES.md)** — Curated list of external practice platforms (IndiaBIX, LeetCode, GeeksforGeeks, HackerRank, SQLBolt, Versant practice tools).
+- 🛠️ **`_meta/`** — Maintainer & audit files (syllabus map, coverage checklist, video link index, quality standard). *Note: Internal repository management only.*
 
 ---
 
-### Option B: The 30-Day Full Prep Plan (Comprehensive Mastery)
+## 📚 Master Study Table of Contents (00 → 08 Sequence)
 
-| Week | Focus Module | Daily Budget & Action Plan |
-| :--- | :--- | :--- |
-| **Week 1** | Stage 0, Stage 1 & Quantitative Aptitude | Days 1-2: Eligibility & Resume. Days 3-4: Gamified games (Memory Maze, Path Finder, Quick-Fire Math). Days 5-7: Quant topics (Percentages, Ratios, TSD, Data Interpretation). |
-| **Week 2** | Logical & Verbal Reasoning | Days 8-10: Blood Relations, Coding-Decoding, Seating. Days 11-12: Abstract Visual Reasoning. Days 13-14: Para-jumbles & Reading Comprehension. |
-| **Week 3** | Technical Assessment & Coding | Days 15-17: CS Fundamentals (OOP, DBMS, OS, Networking, Cloud/Security, MS Office). Days 18-21: Pseudocode Trace Tables & Language Coding (Python/Java/CPP/SQL). |
-| **Week 4** | Versant, Interview Prep & Mock Papers | Days 22-24: Versant 6-section drills. Days 25-27: Technical & HR STAR answers & GD topics. Days 28-30: Timed Mock Tests 1, 2, 3 & Score Tracking. |
+This folder structure doubles as your **recommended study path**, guiding you step-by-step from initial resume alignment through the final interview.
+
+```
+00-start-here/               — Eligibility rules, ATS resume checklist, assessment logistics
+01-gamified-assessment/     — Memory Maze, Path Finder, Quick-Fire Math, classic cognitive backup
+02-aptitude-reasoning/      — Quantitative Aptitude, Logical Reasoning, Verbal Ability (15+ PYQs each)
+03-technical-assessment/    — CS Fundamentals (OOP, DBMS, OS, Networks, Cloud/Security, MS Office) & Pseudocode
+04-coding-round/            — Hands-on Coding in 6 languages (C, C++, Java, Python, JS, SQL) & DSA Practice
+05-communication-assessment/— Versant 6-section drills, grammar/vocab notes, self-intro & project scripts
+06-interview-prep/          — Technical & HR interview guides, GD topics, STAR behavioral answers, project deep-dives
+07-mock-tests/              — 3 full-length 90-minute timed mock test papers with solutions & Capstone Mock Day
+08-progress-trackers/       — Score trackers, DSA problem log, spoken practice log, mock interview log
+```
+
+### Detailed Topic Breakdown
+
+#### 00. Start Here
+- **[00-start-here/01-eligibility-and-resume.md](00-start-here/01-eligibility-and-resume.md)** — Accenture 2026 Eligibility Criteria (60%/6.0 CGPA, backlog rules) & ATS Resume Template.
+- **[00-start-here/02-logistics-checklist.md](00-start-here/02-logistics-checklist.md)** — System requirements, webcam/mic setup, SEB browser rules, and exam day logistics.
+
+#### 01. Gamified Cognitive Assessment
+- **[01-gamified-assessment/memory-maze.md](01-gamified-assessment/memory-maze.md)** — Memory & spatial pattern recognition strategy.
+- **[01-gamified-assessment/path-finder.md](01-gamified-assessment/path-finder.md)** — Grid traversal & shortest path mental strategies.
+- **[01-gamified-assessment/quick-fire-math.md](01-gamified-assessment/quick-fire-math.md)** — Rapid mental math calculations under extreme time pressure.
+- **[01-gamified-assessment/classic-cognitive-mcq-fallback.md](01-gamified-assessment/classic-cognitive-mcq-fallback.md)** — Fallback guide for traditional cognitive MCQ formats.
+
+#### 02. Aptitude & Reasoning
+- **Quantitative Aptitude**:
+  - [Percentages, Profit & Loss](02-aptitude-reasoning/quantitative/percentages-profit-loss.md) (15+ PYQs)
+  - [Ratios, Proportions & Averages](02-aptitude-reasoning/quantitative/ratios-averages.md) (15+ PYQs)
+  - [Time, Speed & Distance](02-aptitude-reasoning/quantitative/time-speed-distance.md) (15+ PYQs)
+  - [Data Interpretation](02-aptitude-reasoning/quantitative/data-interpretation.md) (15+ PYQs)
+- **Logical Reasoning**:
+  - [Coding-Decoding Patterns](02-aptitude-reasoning/logical-reasoning/coding-decoding.md) (15+ PYQs)
+  - [Blood Relations](02-aptitude-reasoning/logical-reasoning/blood-relations.md) (15+ PYQs)
+  - [Seating Arrangements](02-aptitude-reasoning/logical-reasoning/seating-arrangement.md) (15+ PYQs)
+  - [Abstract & Visual Reasoning](02-aptitude-reasoning/logical-reasoning/abstract-visual-reasoning.md) (15+ PYQs)
+- **Verbal Ability**:
+  - [Reading Comprehension](02-aptitude-reasoning/verbal/reading-comprehension.md) (15+ PYQs)
+  - [Para-Jumbles & Sentence Ordering](02-aptitude-reasoning/verbal/para-jumbles.md) (15+ PYQs)
+
+#### 03. Technical Assessment (CS & Pseudocode)
+- **CS Fundamentals**:
+  - [OOP Concepts](03-technical-assessment/cs-fundamentals/oop-concepts.md) (15+ PYQs)
+  - [DBMS & SQL Joins](03-technical-assessment/cs-fundamentals/dbms-normalization-joins.md) (15+ PYQs)
+  - [Operating Systems](03-technical-assessment/cs-fundamentals/os-basics.md) (15+ PYQs)
+  - [Networking Basics](03-technical-assessment/cs-fundamentals/networking-basics.md) (15+ PYQs)
+  - [Cloud Computing & Security](03-technical-assessment/cs-fundamentals/cloud-security-basics.md) (15+ PYQs)
+  - [MS Office Basics](03-technical-assessment/cs-fundamentals/ms-office-basics.md) (15+ PYQs)
+- **Pseudocode**:
+  - [Loops & Recursion](03-technical-assessment/pseudocode/pseudocode-loop-recursion.md) (20 Trace Tables)
+  - [Arrays, Strings & Flowcharts](03-technical-assessment/pseudocode/pseudocode-array-string-flowchart.md) (20 Trace Tables)
+
+#### 04. Hands-on Coding Round
+- **Languages**:
+  - [C Coding Bank](04-coding-round/languages/c-coding.md) (10 Solved Problems)
+  - [C++ Coding Bank](04-coding-round/languages/cpp-coding.md) (10 Solved Problems)
+  - [Java Coding Bank](04-coding-round/languages/java-coding.md) (10 Solved Problems)
+  - [Python Coding Bank](04-coding-round/languages/python-coding.md) (10 Solved Problems)
+  - [JavaScript Coding Bank](04-coding-round/languages/javascript-coding.md) (10 Solved Problems)
+  - [SQL Queries Bank](04-coding-round/languages/sql-queries.md) (10 Solved Queries)
+- **DSA Practice**:
+  - [Arrays & Strings](04-coding-round/dsa-practice/arrays-strings.md)
+  - [DP & Graphs](04-coding-round/dsa-practice/dp-graphs.md)
+
+#### 05. Communication Assessment (Versant Format)
+- [Grammar & Vocab Notes](05-communication-assessment/grammar-vocab-notes.md)
+- [Self-Introduction Script](05-communication-assessment/self-intro-script.md)
+- [Project Summary Script](05-communication-assessment/project-summary-script.md)
+- [Versant Section Drills (Reading, Repeat, Sentence Build, Short Answer, Story Retelling, Spontaneous Speech)](05-communication-assessment/README.md)
+
+#### 06. Interview Preparation
+- [Technical Interview Guide](06-interview-prep/technical-interview-guide.md)
+- [HR & Managerial Guide](06-interview-prep/hr-managerial-guide.md)
+- [Group Discussion Guide](06-interview-prep/group-discussion-guide.md)
+- [Questions to Ask Panelist](06-interview-prep/questions-to-ask-panelist.md)
+- STAR Behavioral Answers: [Hackathon Win](06-interview-prep/star-answers/hackathon-win.md), [Teamwork](06-interview-prep/star-answers/teamwork.md), [Conflict Resolution](06-interview-prep/star-answers/conflict-challenge.md)
+- Project Deep-Dives: [Bhookly](06-interview-prep/project-deep-dives/bhookly.md), [PrepGenius](06-interview-prep/project-deep-dives/prepgenius.md), [Scrutin](06-interview-prep/project-deep-dives/scrutin.md)
+
+#### 07. Mock Tests & Capstone
+- Full 90-Min Mock Tests: [Mock 1](07-mock-tests/mock-test-1.md) ([Answers](07-mock-tests/mock-test-1-answers.md)), [Mock 2](07-mock-tests/mock-test-2.md) ([Answers](07-mock-tests/mock-test-2-answers.md)), [Mock 3](07-mock-tests/mock-test-3.md) ([Answers](07-mock-tests/mock-test-3-answers.md))
+- [Capstone Mock Day](07-mock-tests/capstone-mock-day.md) — 5-Hour Full Hiring Simulation Protocol.
+
+#### 08. Progress Trackers
+- [Aptitude & Mock Score Tracker](08-progress-trackers/aptitude-mock-score-tracker.md)
+- [DSA Solved Problems Log](08-progress-trackers/dsa-solved-problems-log.md)
+- [Spoken Practice Log](08-progress-trackers/spoken-practice-log.md)
+- [Mock Interview Log](08-progress-trackers/mock-interview-log.md)
 
 ---
 
-## 🔗 Full Repository Table of Contents (Master Index)
+## 📅 Structured Preparation Plans
 
-### 📌 Core Meta & Audit
-- **[ROADMAP.md](ROADMAP.md)** — Beginner's Master Preparation Guide & Milestones
-- **[TEACHING-STANDARD.md](TEACHING-STANDARD.md)** — 14-Step Pedagogical Content Framework
-- **[CHEAT-SHEET.md](CHEAT-SHEET.md)** — Day-Before Test Quick Formula Reference Card
-- **[AUDIT.md](AUDIT.md)** — Repository Audit & Gap Analysis Report
-- **[COVERAGE-CHECKLIST.md](COVERAGE-CHECKLIST.md)** — 100% Syllabus Verification Checklist
-- **[REQUIREMENTS.md](REQUIREMENTS.md)** — Quality & Structure Standards
-- **[RESOURCE-LINKS.md](RESOURCE-LINKS.md)** — Curated Video & Practice Tool Directory
-- **[TRICKS-AND-SHORTCUTS.md](TRICKS-AND-SHORTCUTS.md)** — Injected Shortcut Techniques Master Guide
+### Option A: 7-Day Fast Sprint Plan
 
----
-
-### 📄 Stage 0: Eligibility & Resume
-- **[00-stage-0-eligibility-resume.md](00-stage-0-eligibility-resume.md)** — Eligibility Criteria & ATS Resume Optimization
+| Day | Focus Area | Recommended Modules / Tasks |
+|:---|:---|:---|
+| **Day 1** | Eligibility & Gamified Round | Read [Eligibility & Resume](00-start-here/01-eligibility-and-resume.md). Practice [Memory Maze](01-gamified-assessment/memory-maze.md) & [Path Finder](01-gamified-assessment/path-finder.md). |
+| **Day 2** | Aptitude & Mental Math | Master [Quick-Fire Math](01-gamified-assessment/quick-fire-math.md) & practice [Percentages](02-aptitude-reasoning/quantitative/percentages-profit-loss.md). |
+| **Day 3** | Pseudocode & Tracing | Solve 20 trace table problems in [Pseudocode Loops](03-technical-assessment/pseudocode/pseudocode-loop-recursion.md). |
+| **Day 4** | CS & Cloud Fundamentals | Study [Cloud & Security](03-technical-assessment/cs-fundamentals/cloud-security-basics.md) & [MS Office](03-technical-assessment/cs-fundamentals/ms-office-basics.md). |
+| **Day 5** | Coding Round Sprint | Solve 10 problems in your primary language ([Python](04-coding-round/languages/python-coding.md) or [Java](04-coding-round/languages/java-coding.md)). |
+| **Day 6** | Versant Communication | Drill all 6 Versant sections in [Communication Assessment](05-communication-assessment/README.md). |
+| **Day 7** | Timed Mock Test Day | Complete [Mock Test 1](07-mock-tests/mock-test-1.md) & log scores in [Aptitude Score Tracker](08-progress-trackers/aptitude-mock-score-tracker.md). |
 
 ---
 
-### 🎮 Stage 1: Gamified Assessment & Aptitude
-- **[01-gamified-assessment/memory-maze.md](01-gamified-assessment/memory-maze.md)** — Memory Maze (3-Anchor Chunking Technique & 15 Scenarios)
-- **[01-gamified-assessment/path-finder.md](01-gamified-assessment/path-finder.md)** — Path Finder (Backward End-Search Technique & 15 Scenarios)
-- **[01-gamified-assessment/quick-fire-math.md](01-gamified-assessment/quick-fire-math.md)** — Quick-Fire Math (Nearest-10 Rounding Technique & 15 Scenarios)
-- **[01-gamified-assessment/cognitive-mcq-classic.md](01-gamified-assessment/cognitive-mcq-classic.md)** — Classic Cognitive MCQ Format Backup
-- **[01-aptitude/quantitative/percentages-profit-loss.md](01-aptitude/quantitative/percentages-profit-loss.md)** — Percentages, Profit & Loss (15+ PYQs)
-- **[01-aptitude/quantitative/ratios-averages.md](01-aptitude/quantitative/ratios-averages.md)** — Ratios, Proportions & Averages (15+ PYQs)
-- **[01-aptitude/quantitative/time-speed-distance.md](01-aptitude/quantitative/time-speed-distance.md)** — Time, Speed & Distance (15+ PYQs)
-- **[01-aptitude/quantitative/data-interpretation.md](01-aptitude/quantitative/data-interpretation.md)** — Data Interpretation: Charts & Tables (15+ PYQs)
-- **[01-aptitude/logical-reasoning/blood-relations.md](01-aptitude/logical-reasoning/blood-relations.md)** — Blood Relations (15+ PYQs)
-- **[01-aptitude/logical-reasoning/coding-decoding.md](01-aptitude/logical-reasoning/coding-decoding.md)** — Coding-Decoding Patterns (15+ PYQs)
-- **[01-aptitude/logical-reasoning/seating-arrangement.md](01-aptitude/logical-reasoning/seating-arrangement.md)** — Seating Arrangements (15+ PYQs)
-- **[01-aptitude/logical-reasoning/abstract-visual-reasoning.md](01-aptitude/logical-reasoning/abstract-visual-reasoning.md)** — Abstract & Visual Reasoning (15+ PYQs)
-- **[01-aptitude/verbal/para-jumbles.md](01-aptitude/verbal/para-jumbles.md)** — Para-Jumbles & Sentence Ordering (15+ PYQs)
-- **[01-aptitude/verbal/reading-comprehension.md](01-aptitude/verbal/reading-comprehension.md)** — Reading Comprehension Passages (15+ PYQs)
+### Option B: 30-Day Master Preparation Plan
+
+| Week | Focus Area | Modules & Objectives |
+|:---|:---|:---|
+| **Week 1** | Foundation & Aptitude | Complete all topics in `00-start-here/`, `01-gamified-assessment/`, and `02-aptitude-reasoning/`. Solve 15 PYQs per topic. |
+| **Week 2** | CS & Pseudocode Mastery | Work through `03-technical-assessment/`. Master all 40 Pseudocode trace tables and CS concept files. |
+| **Week 3** | Hands-on Coding & Versant | Solve all 10 problems in `04-coding-round/languages/`, practice DSA patterns, and complete Versant drills in `05-communication-assessment/`. |
+| **Week 4** | Interviews & Mock Tests | Finalize STAR stories in `06-interview-prep/`, complete [Mock Test 1](07-mock-tests/mock-test-1.md), [Mock Test 2](07-mock-tests/mock-test-2.md), [Mock Test 3](07-mock-tests/mock-test-3.md), and execute [Capstone Mock Day](07-mock-tests/capstone-mock-day.md). |
 
 ---
 
-### 💻 Stage 2: Technical Assessment (CS, Pseudocode, Cloud, MS Office)
-- **[02-technical-coding/cs-fundamentals/oop-concepts.md](02-technical-coding/cs-fundamentals/oop-concepts.md)** — Object-Oriented Programming (15+ PYQs)
-- **[02-technical-coding/cs-fundamentals/dbms-normalization-joins.md](02-technical-coding/cs-fundamentals/dbms-normalization-joins.md)** — DBMS, Normalization & SQL Joins (15+ PYQs)
-- **[02-technical-coding/cs-fundamentals/os-basics.md](02-technical-coding/cs-fundamentals/os-basics.md)** — Operating Systems & Deadlocks (15+ PYQs)
-- **[02-technical-coding/cs-fundamentals/networking-basics.md](02-technical-coding/cs-fundamentals/networking-basics.md)** — Computer Networks & Protocols (15+ PYQs)
-- **[02-technical-coding/cs-fundamentals/cloud-security-basics.md](02-technical-coding/cs-fundamentals/cloud-security-basics.md)** — Cloud Computing & Security Basics (15+ PYQs)
-- **[02-technical-coding/cs-fundamentals/ms-office-basics.md](02-technical-coding/cs-fundamentals/ms-office-basics.md)** — MS Office: Excel, Word & PPT (15+ PYQs)
-- **[02-technical-coding/pseudocode/pseudocode-loop-recursion.md](02-technical-coding/pseudocode/pseudocode-loop-recursion.md)** — Pseudocode: Loops & Recursion (20 Trace Table PYQs)
-- **[02-technical-coding/pseudocode/pseudocode-array-string-flowchart.md](02-technical-coding/pseudocode/pseudocode-array-string-flowchart.md)** — Pseudocode: Arrays, Strings & Flowcharts (20 Trace Table PYQs)
+## 📌 Maintainer & Audit Metadata (`_meta/`)
 
----
-
-### ⚡ Stage 3: Coding Round Practice Banks
-- **[02-technical-coding/coding-round/python-coding.md](02-technical-coding/coding-round/python-coding.md)** — Python Coding Bank (10 Solved DSA Problems)
-- **[02-technical-coding/coding-round/java-coding.md](02-technical-coding/coding-round/java-coding.md)** — Java Coding Bank (10 Solved DSA Problems)
-- **[02-technical-coding/coding-round/cpp-coding.md](02-technical-coding/coding-round/cpp-coding.md)** — C++ Coding Bank (10 Solved DSA Problems)
-- **[02-technical-coding/coding-round/c-coding.md](02-technical-coding/coding-round/c-coding.md)** — C Coding Bank (10 Solved DSA Problems)
-- **[02-technical-coding/coding-round/sql-queries.md](02-technical-coding/coding-round/sql-queries.md)** — SQL Query Bank (10 Solved Query Problems)
-- **[02-technical-coding/coding-round/javascript-coding.md](02-technical-coding/coding-round/javascript-coding.md)** — JavaScript Coding Bank (10 Solved DSA Problems)
-
----
-
-### 🗣️ Stage 4: Communication Assessment (Versant Drills)
-- **[03-communication/versant-drills/01-reading-drill.md](03-communication/versant-drills/01-reading-drill.md)** — Versant Section 1: Reading Drill (Punctuation Map)
-- **[03-communication/versant-drills/02-repeat-sentence-drill.md](03-communication/versant-drills/02-repeat-sentence-drill.md)** — Versant Section 2: Repeat Sentence Drill (16 Scripts)
-- **[03-communication/versant-drills/03-sentence-build-drill.md](03-communication/versant-drills/03-sentence-build-drill.md)** — Versant Section 3: Sentence Build Drill (10 Drills)
-- **[03-communication/versant-drills/04-short-answer-drill.md](03-communication/versant-drills/04-short-answer-drill.md)** — Versant Section 4: Short Answer Questions Drill (24 Q&As)
-- **[03-communication/versant-drills/05-story-retelling-drill.md](03-communication/versant-drills/05-story-retelling-drill.md)** — Versant Section 5: Story Retelling Drill (4-Anchor Framework)
-- **[03-communication/versant-drills/06-spontaneous-speech-drill.md](03-communication/versant-drills/06-spontaneous-speech-drill.md)** — Versant Section 6: Spontaneous Speech Drill (3-Sentence Framework)
-
----
-
-### 🤝 Stage 5: Interview Rounds & Group Discussion
-- **[04-interview-prep/technical-interview-guide.md](04-interview-prep/technical-interview-guide.md)** — Technical Interview Guide & Project Defense
-- **[04-interview-prep/hr-managerial-guide.md](04-interview-prep/hr-managerial-guide.md)** — HR & Managerial Interview STAR Guide
-- **[04-interview-prep/group-discussion-guide.md](04-interview-prep/group-discussion-guide.md)** — Group Discussion Strategy & 10 Topic Guides
-
----
-
-### 📝 Stage 6: Timed Mock Tests & Tracking
-- **[05-mock-tests/mock-test-1.md](05-mock-tests/mock-test-1.md)** & **[05-mock-tests/mock-test-1-answers.md](05-mock-tests/mock-test-1-answers.md)** — Timed Mock Test Paper #1 + Answer Key
-- **[05-mock-tests/mock-test-2.md](05-mock-tests/mock-test-2.md)** & **[05-mock-tests/mock-test-2-answers.md](05-mock-tests/mock-test-2-answers.md)** — Timed Mock Test Paper #2 + Answer Key
-- **[05-mock-tests/mock-test-3.md](05-mock-tests/mock-test-3.md)** & **[05-mock-tests/mock-test-3-answers.md](05-mock-tests/mock-test-3-answers.md)** — Timed Mock Test Paper #3 + Answer Key
-- **[05-mock-tests/score-tracker.md](05-mock-tests/score-tracker.md)** — Blank Performance Tracking Log Table
+The `_meta/` directory contains repo management assets for maintainers and auditors:
+- `TOPICS-TO-COVER.md` — Syllabus requirement mapping.
+- `COVERAGE-CHECKLIST.md` — Topic verification checklist.
+- `REQUIREMENTS.md` — Mandatory structure and quality requirements.
+- `RESOURCE-LINKS.md` — Accenture-specific curated video links.
+- `CLEANUP-CHANGELOG.md` — Full audit log of repository restructuring.
